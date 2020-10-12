@@ -1,0 +1,1486 @@
+** Message: 23:35:10.680: environement.vala:58: Exporting primary_variable
+** Message: 23:35:10.680: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 23:35:10.680: environement.vala:150: confir_dirs is null, export : /etc/xdg
+** Message: 23:35:10.680: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 23:35:10.681: environement.vala:218: custom_data :
+** Message: 23:35:10.681: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 23:35:10.693: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 23:35:10.694: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 23:35:10.695: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 23:35:10.700: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 23:35:10.700: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 23:35:10.700: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 23:35:10.701: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+
+** (lxsession:526): WARNING **: 23:35:10.704: utils.vala:70: No such file or directory
+** Message: 23:35:10.705: settings.vala:540: Key file does not have key “iGtk/ColorScheme” in group “GTK”
+** Message: 23:35:10.705: settings.vala:540: Key file does not have key “windows_manager/command” in group “Session”
+** Message: 23:35:10.723: settings.vala:540: Key file does not have key “panel/command” in group “Session”
+** Message: 23:35:10.723: settings.vala:540: Key file does not have key “dock/command” in group “Session”
+** Message: 23:35:10.723: settings.vala:540: Key file does not have key “file_manager/command” in group “Session”
+** Message: 23:35:10.724: settings.vala:540: Key file does not have key “desktop_manager/command” in group “Session”
+** Message: 23:35:10.724: settings.vala:540: Key file does not have key “launcher_manager/autostart” in group “Session”
+** Message: 23:35:10.724: settings.vala:540: Key file does not have key “composite_manager/command” in group “Session”
+** Message: 23:35:10.725: settings.vala:540: Key file does not have key “im1/command” in group “Session”
+** Message: 23:35:10.730: settings.vala:540: Key file does not have key “im2/command” in group “Session”
+** Message: 23:35:10.730: settings.vala:540: Key file does not have key “widget1/command” in group “Session”
+** Message: 23:35:10.730: settings.vala:540: Key file does not have key “notification/command” in group “Session”
+** Message: 23:35:10.731: settings.vala:540: Key file does not have key “keybindings/command” in group “Session”
+** Message: 23:35:10.731: settings.vala:540: Key file does not have key “im_manager/command” in group “Session”
+** Message: 23:35:10.731: settings.vala:540: Key file does not have key “screensaver/command” in group “Session”
+** Message: 23:35:10.731: settings.vala:540: Key file does not have key “power_manager/command” in group “Session”
+** Message: 23:35:10.752: settings.vala:540: Key file does not have key “audio_manager/command” in group “Session”
+** Message: 23:35:10.753: settings.vala:540: Key file does not have key “workspace_manager/command” in group “Session”
+** Message: 23:35:10.753: settings.vala:540: Key file does not have key “screenshot_manager/command” in group “Session”
+** Message: 23:35:10.754: settings.vala:540: Key file does not have key “message_manager/command” in group “Session”
+** Message: 23:35:10.754: settings.vala:540: Key file does not have key “upgrade_manager/command” in group “Session”
+** Message: 23:35:10.754: settings.vala:540: Key file does not have key “updates_manager/command” in group “Session”
+** Message: 23:35:10.755: settings.vala:540: Key file does not have key “updates_manager/timeout” in group “Session”
+** Message: 23:35:10.755: settings.vala:540: Key file does not have key “crash_manager/command” in group “Session”
+** Message: 23:35:10.756: settings.vala:540: Key file does not have key “crash_manager/dev_mode” in group “Session”
+** Message: 23:35:10.756: settings.vala:540: Key file does not have key “crash_manager/timeout” in group “Session”
+** Message: 23:35:10.756: settings.vala:540: Key file does not have key “upstart_user_session” in group “Session”
+** Message: 23:35:10.757: settings.vala:540: Key file does not have key “proxy_manager/http” in group “Session”
+** Message: 23:35:10.757: settings.vala:540: Key file does not have key “a11y/command” in group “Session”
+** Message: 23:35:10.758: settings.vala:540: Key file does not have key “xrandr/command” in group “Session”
+** Message: 23:35:10.758: settings.vala:540: Key file does not have key “network_gui/command” in group “Session”
+** Message: 23:35:10.758: settings.vala:540: Key file does not have key “webbrowser/command” in group “Session”
+** Message: 23:35:10.759: settings.vala:540: Key file does not have key “email/command” in group “Session”
+** Message: 23:35:10.759: settings.vala:540: Key file does not have key “pdf_reader/command” in group “Session”
+** Message: 23:35:10.759: settings.vala:540: Key file does not have key “video_player/command” in group “Session”
+** Message: 23:35:10.760: settings.vala:540: Key file does not have key “audio_player/command” in group “Session”
+** Message: 23:35:10.760: settings.vala:540: Key file does not have key “images_display/command” in group “Session”
+** Message: 23:35:10.760: settings.vala:540: Key file does not have key “text_editor/command” in group “Session”
+** Message: 23:35:10.761: settings.vala:540: Key file does not have key “archive/command” in group “Session”
+** Message: 23:35:10.761: settings.vala:540: Key file does not have key “charmap/command” in group “Session”
+** Message: 23:35:10.812: settings.vala:540: Key file does not have key “calculator/command” in group “Session”
+** Message: 23:35:10.812: settings.vala:540: Key file does not have key “spreadsheet/command” in group “Session”
+** Message: 23:35:10.813: settings.vala:540: Key file does not have key “bittorent/command” in group “Session”
+** Message: 23:35:10.813: settings.vala:540: Key file does not have key “document/command” in group “Session”
+** Message: 23:35:10.813: settings.vala:540: Key file does not have key “webcam/command” in group “Session”
+** Message: 23:35:10.814: settings.vala:540: Key file does not have key “burn/command” in group “Session”
+** Message: 23:35:10.814: settings.vala:540: Key file does not have key “notes/command” in group “Session”
+** Message: 23:35:10.814: settings.vala:540: Key file does not have key “disk_utility/command” in group “Session”
+** Message: 23:35:10.815: settings.vala:540: Key file does not have key “tasks/command” in group “Session”
+** Message: 23:35:10.815: settings.vala:540: Key file does not have group “Keymap”
+** Message: 23:35:10.815: settings.vala:540: Key file does not have key “laptop_mode” in group “State”
+** Message: 23:35:10.816: settings.vala:540: Key file does not have key “gnome” in group “Dbus”
+** Message: 23:35:10.816: settings.vala:540: Key file does not have key “type” in group “Environment”
+** Message: 23:35:10.817: settings.vala:540: Key file does not have key “ubuntu_menuproxy” in group “Environment”
+** Message: 23:35:10.817: settings.vala:540: Key file does not have key “toolkit_integration” in group “Environment”
+** Message: 23:35:10.817: settings.vala:540: Key file does not have key “gtk/overlay_scrollbar_disable” in group “Environment”
+** Message: 23:35:10.818: settings.vala:540: Key file does not have key “qt/force_theme” in group “Environment”
+** Message: 23:35:10.818: settings.vala:540: Key file does not have key “qt/platform” in group “Environment”
+** Message: 23:35:10.842: settings.vala:462: Monitoring: /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 23:35:10.842: settings.vala:470: Desktop file is not in config home, monitoring creation of it
+** Message: 23:35:10.843: settings.vala:485: Monitoring home path: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 23:35:10.844: environement.vala:79: Exporting variable
+** Message: 23:35:10.844: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 23:35:10.844: environement.vala:177: custom_config :
+** Message: 23:35:10.845: environement.vala:178: config_dirs :/etc/xdg
+** Message: 23:35:10.845: environement.vala:179: confir_dirs not null, export : /etc/xdg
+** Message: 23:35:10.845: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 23:35:10.846: environement.vala:218: custom_data :
+** Message: 23:35:10.846: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 23:35:10.846: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 23:35:10.846: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 23:35:10.847: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 23:35:10.847: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+
+** (lxsession:526): WARNING **: 23:35:10.848: utils.vala:70: No such file or directory
+** Message: 23:35:10.848: environement.vala:254: No entry in [Environment_variable]. Key file does not have group “Environment_variable”
+** Message: 23:35:10.883: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 23:35:10.883: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 23:35:10.884: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 23:35:10.884: options.vala:164: Activate xsettings_manager build-in
+** Message: 23:35:10.885: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 23:35:10.885: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+
+** (lxsession:526): WARNING **: 23:35:10.886: utils.vala:70: No such file or directory
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: 23:35:11.105: app.vala:721: polkit separate
+** Message: 23:35:11.106: app.vala:721: polkit separate
+** Message: 23:35:11.151: app.vala:76: Launching lxpolkit 
+** Message: 23:35:11.151: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 23:35:11.162: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 23:35:11.162: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 23:35:11.163: autostart.vala:42: Autostart path : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 23:35:11.242: app.vala:76: Launching lxpanel 
+** Message: 23:35:11.330: app.vala:76: Launching pcmanfm 
+
+** (lxsession:526): WARNING **: 23:35:11.455: app.vala:86: Failed to execute child process “xscreensaver” (No such file or directory)
+
+** (lxsession:526): WARNING **: 23:35:11.455: app.vala:87: Error when launching xscreensaver
+** Message: 23:35:11.515: options.vala:107: Create build-in Clipboard
+** Message: 23:35:11.545: main.vala:441: Check keymap_mode (null)
+** Message: 23:35:11.693: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-182ghcivXvtz/agent.652; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=656; export SSH_AGENT_PID;
+echo Agent pid 656;
+** Message: 23:35:13.232: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+** Message: 23:35:15.245: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: 23:35:15.769: x-terminal-emulator has very limited support, consider choose another terminal
+grep: /home/pi/.config/lxpanel/LXDE-pi/panels/*: No such file or directory
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: 22:20:11.282: Connecting ...
+** Message: 22:20:11.284: Status changed to down
+xrandr: Failed to get size of gamma for output default
+Unit pt-device-manager.service could not be found.
+
+** (lxpanel:646): WARNING **: 22:20:14.011: Battery 0 not found
+** Message: 22:20:14.089: Status changed to opened
+** Message: 22:20:14.090: Connected to dhcpcd-8.1.2
+** Message: 22:20:14.130: Status changed to connected
+** Message: 22:20:14.131: usb0: CARRIER
+** Message: 22:20:14.131: usb0: Configured 169.254.103.132/16
+** Message: 22:20:14.132: wlan0: Associated with Cecil9
+** Message: 22:20:14.132: wlan0: Configured 192.168.1.66/24
+** Message: 22:20:14.168: wlan0: WPA status connected
+** Message: 22:20:14.169: wlan0: Received scan results
+
+(lxpanel:646): Gtk-CRITICAL **: 22:20:18.701: IA__gtk_image_set_from_pixbuf: assertion 'GTK_IS_IMAGE (image)' failed
+** Message: 22:21:12.010: wlan0: Received scan results
+** Message: 22:22:12.014: wlan0: Received scan results
+** Message: 22:23:12.011: wlan0: Received scan results
+** Message: 22:24:12.020: wlan0: Received scan results
+** Message: 22:25:12.017: wlan0: Received scan results
+** Message: 22:26:12.020: wlan0: Received scan results
+** Message: 22:27:12.019: wlan0: Received scan results
+** Message: 22:28:12.020: wlan0: Received scan results
+** Message: 22:29:12.020: wlan0: Received scan results
+** Message: 22:30:12.023: wlan0: Received scan results
+** Message: 22:31:12.024: wlan0: Received scan results
+** Message: 22:32:12.022: wlan0: Received scan results
+** Message: 22:33:12.025: wlan0: Received scan results
+** Message: 22:34:12.032: wlan0: Received scan results
+** Message: 22:35:12.032: wlan0: Received scan results
+** Message: 22:36:12.065: wlan0: Received scan results
+** Message: 22:37:12.037: wlan0: Received scan results
+** Message: 22:38:12.032: wlan0: Received scan results
+** Message: 22:39:12.034: wlan0: Received scan results
+** Message: 22:40:12.033: wlan0: Received scan results
+** Message: 22:41:12.044: wlan0: Received scan results
+** Message: 22:42:12.035: wlan0: Received scan results
+** Message: 22:43:12.044: wlan0: Received scan results
+** Message: 22:44:12.042: wlan0: Received scan results
+** Message: 22:45:12.040: wlan0: Received scan results
+** Message: 22:46:12.042: wlan0: Received scan results
+** Message: 22:47:12.042: wlan0: Received scan results
+** Message: 22:48:12.044: wlan0: Received scan results
+** Message: 22:49:12.045: wlan0: Received scan results
+** Message: 22:50:12.044: wlan0: Received scan results
+** Message: 22:51:12.047: wlan0: Received scan results
+** Message: 22:52:12.052: wlan0: Received scan results
+** Message: 22:53:12.067: wlan0: Received scan results
+** Message: 22:54:12.051: wlan0: Received scan results
+** Message: 22:55:12.052: wlan0: Received scan results
+** Message: 22:56:12.051: wlan0: Received scan results
+** Message: 22:57:12.055: wlan0: Received scan results
+** Message: 22:58:12.052: wlan0: Received scan results
+** Message: 22:59:12.051: wlan0: Received scan results
+** Message: 23:00:12.064: wlan0: Received scan results
+** Message: 23:01:12.053: wlan0: Received scan results
+** Message: 23:02:12.055: wlan0: Received scan results
+** Message: 23:03:12.063: wlan0: Received scan results
+** Message: 23:04:12.075: wlan0: Received scan results
+** Message: 23:05:12.060: wlan0: Received scan results
+** Message: 23:06:12.075: wlan0: Received scan results
+** Message: 23:07:12.071: wlan0: Received scan results
+** Message: 23:08:12.067: wlan0: Received scan results
+** Message: 23:09:12.085: wlan0: Received scan results
+** Message: 23:10:12.070: wlan0: Received scan results
+** Message: 23:11:12.074: wlan0: Received scan results
+** Message: 23:12:12.068: wlan0: Received scan results
+** Message: 23:13:12.094: wlan0: Received scan results
+** Message: 23:14:12.080: wlan0: Received scan results
+** Message: 23:15:12.080: wlan0: Received scan results
+** Message: 23:16:12.070: wlan0: Received scan results
+** Message: 23:17:12.105: wlan0: Received scan results
+** Message: 23:18:12.083: wlan0: Received scan results
+** Message: 23:19:12.090: wlan0: Received scan results
+** Message: 23:20:12.080: wlan0: Received scan results
+** Message: 23:21:12.102: wlan0: Received scan results
+** Message: 23:22:12.098: wlan0: Received scan results
+** Message: 23:23:12.088: wlan0: Received scan results
+** Message: 23:24:12.097: wlan0: Received scan results
+** Message: 23:25:12.091: wlan0: Received scan results
+** Message: 23:26:12.104: wlan0: Received scan results
+** Message: 23:27:12.080: wlan0: Received scan results
+** Message: 23:28:12.094: wlan0: Received scan results
+** Message: 23:29:12.088: wlan0: Received scan results
+** Message: 23:30:12.095: wlan0: Received scan results
+** Message: 23:31:12.115: wlan0: Received scan results
+** Message: 23:32:12.093: wlan0: Received scan results
+** Message: 23:32:36.730: app.vala:130: pcmanfm exit with this type of exit: 11
+** Message: 23:32:36.731: app.vala:148: Exit not normal, try to reload
+** Message: 23:32:36.755: app.vala:76: Launching pcmanfm 
+** Message: 23:32:37.679: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: 23:33:12.086: wlan0: Received scan results
+** Message: 23:34:12.094: wlan0: Received scan results
+** Message: 23:35:12.093: wlan0: Received scan results
+** Message: 23:36:12.113: wlan0: Received scan results
+** Message: 23:37:12.091: wlan0: Received scan results
+** Message: 23:38:12.102: wlan0: Received scan results
+** Message: 23:39:12.096: wlan0: Received scan results
+** Message: 23:40:12.097: wlan0: Received scan results
+** Message: 23:41:12.102: wlan0: Received scan results
+** Message: 23:42:12.105: wlan0: Received scan results
+** Message: 23:43:12.099: wlan0: Received scan results
+** Message: 23:44:12.103: wlan0: Received scan results
+** Message: 23:45:12.107: wlan0: Received scan results
+** Message: 23:46:12.102: wlan0: Received scan results
+** Message: 23:47:12.142: wlan0: Received scan results
+** Message: 23:48:12.105: wlan0: Received scan results
+** Message: 23:49:12.107: wlan0: Received scan results
+** Message: 23:50:12.103: wlan0: Received scan results
+** Message: 23:51:12.106: wlan0: Received scan results
+** Message: 23:52:12.118: wlan0: Received scan results
+** Message: 23:53:12.107: wlan0: Received scan results
+** Message: 23:54:12.106: wlan0: Received scan results
+** Message: 23:55:12.125: wlan0: Received scan results
+** Message: 23:56:12.112: wlan0: Received scan results
+** Message: 23:57:12.120: wlan0: Received scan results
+** Message: 23:58:12.113: wlan0: Received scan results
+** Message: 23:59:12.119: wlan0: Received scan results
+** Message: 00:00:12.124: wlan0: Received scan results
+** Message: 00:01:12.124: wlan0: Received scan results
+** Message: 00:02:12.140: wlan0: Received scan results
+** Message: 00:03:12.133: wlan0: Received scan results
+** Message: 00:04:12.129: wlan0: Received scan results
+** Message: 00:05:12.126: wlan0: Received scan results
+** Message: 00:06:12.120: wlan0: Received scan results
+** Message: 00:07:12.129: wlan0: Received scan results
+** Message: 00:08:12.125: wlan0: Received scan results
+** Message: 00:09:12.133: wlan0: Received scan results
+** Message: 00:10:12.139: wlan0: Received scan results
+** Message: 00:11:12.128: wlan0: Received scan results
+** Message: 00:12:12.127: wlan0: Received scan results
+** Message: 00:13:12.129: wlan0: Received scan results
+** Message: 00:14:12.137: wlan0: Received scan results
+** Message: 00:15:12.144: wlan0: Received scan results
+** Message: 00:16:12.139: wlan0: Received scan results
+** Message: 00:17:12.130: wlan0: Received scan results
+** Message: 00:18:12.137: wlan0: Received scan results
+** Message: 00:19:12.134: wlan0: Received scan results
+** Message: 00:20:12.140: wlan0: Received scan results
+** Message: 00:21:12.149: wlan0: Received scan results
+** Message: 00:22:12.147: wlan0: Received scan results
+** Message: 00:23:12.133: wlan0: Received scan results
+** Message: 00:24:12.147: wlan0: Received scan results
+** Message: 00:25:12.144: wlan0: Received scan results
+** Message: 00:26:12.153: wlan0: Received scan results
+** Message: 00:27:12.148: wlan0: Received scan results
+** Message: 00:28:12.140: wlan0: Received scan results
+** Message: 00:29:12.147: wlan0: Received scan results
+** Message: 00:30:12.145: wlan0: Received scan results
+** Message: 00:31:12.191: wlan0: Received scan results
+** Message: 00:32:12.147: wlan0: Received scan results
+** Message: 00:33:12.148: wlan0: Received scan results
+** Message: 00:34:12.155: wlan0: Received scan results
+** Message: 00:35:12.152: wlan0: Received scan results
+** Message: 00:36:12.152: wlan0: Received scan results
+** Message: 00:37:12.155: wlan0: Received scan results
+** Message: 00:38:12.154: wlan0: Received scan results
+** Message: 00:39:12.163: wlan0: Received scan results
+** Message: 00:40:12.159: wlan0: Received scan results
+** Message: 00:41:12.160: wlan0: Received scan results
+** Message: 00:42:12.158: wlan0: Received scan results
+** Message: 00:43:12.165: wlan0: Received scan results
+** Message: 00:44:12.191: wlan0: Received scan results
+** Message: 00:45:12.190: wlan0: Received scan results
+** Message: 00:46:12.170: wlan0: Received scan results
+** Message: 00:47:12.165: wlan0: Received scan results
+** Message: 00:48:12.165: wlan0: Received scan results
+** Message: 00:49:12.165: wlan0: Received scan results
+** Message: 00:50:12.193: wlan0: Received scan results
+** Message: 00:51:12.172: wlan0: Received scan results
+** Message: 00:52:12.167: wlan0: Received scan results
+** Message: 00:53:12.171: wlan0: Received scan results
+** Message: 00:54:12.206: wlan0: Received scan results
+** Message: 00:55:12.174: wlan0: Received scan results
+** Message: 00:56:12.177: wlan0: Received scan results
+** Message: 00:57:12.176: wlan0: Received scan results
+** Message: 00:58:12.173: wlan0: Received scan results
+** Message: 00:59:12.172: wlan0: Received scan results
+** Message: 01:00:12.174: wlan0: Received scan results
+** Message: 01:01:12.174: wlan0: Received scan results
+** Message: 01:02:12.176: wlan0: Received scan results
+** Message: 01:03:12.177: wlan0: Received scan results
+** Message: 01:04:12.181: wlan0: Received scan results
+** Message: 01:05:12.180: wlan0: Received scan results
+** Message: 01:06:12.180: wlan0: Received scan results
+** Message: 01:07:12.186: wlan0: Received scan results
+** Message: 01:08:12.191: wlan0: Received scan results
+** Message: 01:09:12.183: wlan0: Received scan results
+** Message: 01:10:12.197: wlan0: Received scan results
+** Message: 01:11:12.233: wlan0: Received scan results
+** Message: 01:12:12.188: wlan0: Received scan results
+** Message: 01:13:12.190: wlan0: Received scan results
+** Message: 01:14:12.224: wlan0: Received scan results
+** Message: 01:15:12.226: wlan0: Received scan results
+** Message: 01:16:12.190: wlan0: Received scan results
+** Message: 01:17:12.195: wlan0: Received scan results
+** Message: 01:18:12.193: wlan0: Received scan results
+** Message: 01:19:12.199: wlan0: Received scan results
+** Message: 01:20:12.198: wlan0: Received scan results
+** Message: 01:21:12.205: wlan0: Received scan results
+** Message: 01:22:12.203: wlan0: Received scan results
+** Message: 01:23:12.213: wlan0: Received scan results
+** Message: 01:24:12.217: wlan0: Received scan results
+** Message: 01:25:12.204: wlan0: Received scan results
+** Message: 01:26:12.206: wlan0: Received scan results
+** Message: 01:27:12.216: wlan0: Received scan results
+** Message: 01:28:12.249: wlan0: Received scan results
+** Message: 01:29:12.203: wlan0: Received scan results
+** Message: 01:30:12.229: wlan0: Received scan results
+** Message: 01:31:12.206: wlan0: Received scan results
+** Message: 01:32:12.268: wlan0: Received scan results
+** Message: 01:33:12.215: wlan0: Received scan results
+** Message: 01:34:12.218: wlan0: Received scan results
+** Message: 01:35:12.233: wlan0: Received scan results
+** Message: 01:36:12.214: wlan0: Received scan results
+** Message: 01:37:12.218: wlan0: Received scan results
+** Message: 01:38:12.215: wlan0: Received scan results
+** Message: 01:39:12.220: wlan0: Received scan results
+** Message: 01:40:12.234: wlan0: Received scan results
+** Message: 01:41:12.218: wlan0: Received scan results
+** Message: 01:42:12.227: wlan0: Received scan results
+** Message: 01:43:12.239: wlan0: Received scan results
+** Message: 01:43:32.706: usb0: Link is down
+** Message: 01:44:12.223: wlan0: Received scan results
+** Message: 01:44:38.126: usb0: Link is up, configuring
+** Message: 01:44:48.265: usb0: Configured 169.254.103.132/16
+** Message: 01:45:12.229: wlan0: Received scan results
+** Message: 01:46:12.226: wlan0: Received scan results
+** Message: 01:47:12.219: wlan0: Received scan results
+** Message: 01:48:12.225: wlan0: Received scan results
+** Message: 01:49:12.229: wlan0: Received scan results
+** Message: 01:50:12.229: wlan0: Received scan results
+** Message: 01:51:12.236: wlan0: Received scan results
+** Message: 01:52:12.232: wlan0: Received scan results
+** Message: 01:53:12.233: wlan0: Received scan results
+** Message: 01:54:12.238: wlan0: Received scan results
+** Message: 01:55:12.234: wlan0: Received scan results
+** Message: 01:56:12.234: wlan0: Received scan results
+** Message: 01:57:12.243: wlan0: Received scan results
+** Message: 01:58:12.240: wlan0: Received scan results
+** Message: 01:59:12.243: wlan0: Received scan results
+** Message: 02:00:00.042: usb0: Link is down
+** Message: 02:00:12.247: wlan0: Received scan results
+** Message: 02:01:12.254: wlan0: Received scan results
+** Message: 02:02:12.240: wlan0: Received scan results
+** Message: 02:03:12.280: wlan0: Received scan results
+** Message: 02:04:12.249: wlan0: Received scan results
+** Message: 02:05:12.241: wlan0: Received scan results
+** Message: 02:06:12.246: wlan0: Received scan results
+** Message: 02:07:12.243: wlan0: Received scan results
+** Message: 02:08:12.252: wlan0: Received scan results
+** Message: 02:09:12.247: wlan0: Received scan results
+** Message: 02:10:12.255: wlan0: Received scan results
+** Message: 02:11:12.248: wlan0: Received scan results
+** Message: 02:12:12.257: wlan0: Received scan results
+** Message: 02:13:12.261: wlan0: Received scan results
+** Message: 02:14:12.276: wlan0: Received scan results
+** Message: 02:15:12.255: wlan0: Received scan results
+** Message: 02:16:12.251: wlan0: Received scan results
+** Message: 02:17:12.254: wlan0: Received scan results
+** Message: 02:18:12.250: wlan0: Received scan results
+** Message: 02:19:12.255: wlan0: Received scan results
+** Message: 02:20:12.254: wlan0: Received scan results
+** Message: 02:21:12.262: wlan0: Received scan results
+** Message: 02:22:12.259: wlan0: Received scan results
+** Message: 02:23:12.276: wlan0: Received scan results
+** Message: 02:24:12.258: wlan0: Received scan results
+** Message: 02:25:12.261: wlan0: Received scan results
+** Message: 02:26:12.264: wlan0: Received scan results
+** Message: 02:27:12.326: wlan0: Received scan results
+** Message: 02:28:12.274: wlan0: Received scan results
+** Message: 02:29:12.264: wlan0: Received scan results
+** Message: 02:30:12.264: wlan0: Received scan results
+** Message: 02:31:12.270: wlan0: Received scan results
+** Message: 02:32:12.262: wlan0: Received scan results
+** Message: 02:33:12.273: wlan0: Received scan results
+** Message: 02:34:12.290: wlan0: Received scan results
+** Message: 02:35:12.272: wlan0: Received scan results
+** Message: 02:36:12.268: wlan0: Received scan results
+** Message: 02:37:12.274: wlan0: Received scan results
+** Message: 02:38:12.272: wlan0: Received scan results
+** Message: 02:39:12.286: wlan0: Received scan results
+** Message: 02:40:12.279: wlan0: Received scan results
+** Message: 02:41:12.273: wlan0: Received scan results
+** Message: 02:42:12.271: wlan0: Received scan results
+** Message: 02:43:12.275: wlan0: Received scan results
+** Message: 02:44:12.277: wlan0: Received scan results
+** Message: 02:45:12.292: wlan0: Received scan results
+** Message: 02:46:12.281: wlan0: Received scan results
+** Message: 02:47:12.292: wlan0: Received scan results
+** Message: 02:48:12.303: wlan0: Received scan results
+** Message: 02:49:12.284: wlan0: Received scan results
+** Message: 02:50:12.285: wlan0: Received scan results
+** Message: 02:51:12.285: wlan0: Received scan results
+** Message: 02:52:12.281: wlan0: Received scan results
+** Message: 02:53:12.293: wlan0: Received scan results
+** Message: 02:54:12.290: wlan0: Received scan results
+** Message: 02:55:12.297: wlan0: Received scan results
+** Message: 02:56:12.296: wlan0: Received scan results
+** Message: 02:57:12.293: wlan0: Received scan results
+** Message: 02:58:12.292: wlan0: Received scan results
+** Message: 02:59:12.292: wlan0: Received scan results
+** Message: 03:00:12.292: wlan0: Received scan results
+** Message: 03:01:12.299: wlan0: Received scan results
+** Message: 03:02:12.293: wlan0: Received scan results
+** Message: 03:03:12.301: wlan0: Received scan results
+** Message: 03:04:12.297: wlan0: Received scan results
+** Message: 03:05:12.303: wlan0: Received scan results
+** Message: 03:06:12.305: wlan0: Received scan results
+** Message: 03:07:12.301: wlan0: Received scan results
+** Message: 03:08:12.305: wlan0: Received scan results
+** Message: 03:09:12.304: wlan0: Received scan results
+** Message: 03:10:12.308: wlan0: Received scan results
+** Message: 03:11:12.305: wlan0: Received scan results
+** Message: 03:12:12.303: wlan0: Received scan results
+** Message: 03:13:12.307: wlan0: Received scan results
+** Message: 03:14:12.307: wlan0: Received scan results
+** Message: 03:15:12.311: wlan0: Received scan results
+** Message: 03:16:12.314: wlan0: Received scan results
+** Message: 03:17:12.318: wlan0: Received scan results
+** Message: 03:18:12.310: wlan0: Received scan results
+** Message: 03:19:12.311: wlan0: Received scan results
+** Message: 03:20:12.311: wlan0: Received scan results
+** Message: 03:21:12.313: wlan0: Received scan results
+** Message: 03:22:12.312: wlan0: Received scan results
+** Message: 03:23:12.315: wlan0: Received scan results
+** Message: 03:24:12.315: wlan0: Received scan results
+** Message: 03:25:12.317: wlan0: Received scan results
+** Message: 03:26:12.322: wlan0: Received scan results
+** Message: 03:27:12.318: wlan0: Received scan results
+** Message: 03:28:12.317: wlan0: Received scan results
+** Message: 03:29:12.321: wlan0: Received scan results
+** Message: 03:30:12.324: wlan0: Received scan results
+** Message: 03:31:12.324: wlan0: Received scan results
+** Message: 03:32:12.325: wlan0: Received scan results
+** Message: 03:33:12.324: wlan0: Received scan results
+** Message: 03:34:12.326: wlan0: Received scan results
+** Message: 03:35:12.328: wlan0: Received scan results
+** Message: 03:36:12.323: wlan0: Received scan results
+** Message: 03:37:12.328: wlan0: Received scan results
+** Message: 03:38:12.331: wlan0: Received scan results
+** Message: 03:39:12.330: wlan0: Received scan results
+** Message: 03:40:12.326: wlan0: Received scan results
+** Message: 03:41:12.332: wlan0: Received scan results
+** Message: 03:42:12.337: wlan0: Received scan results
+** Message: 03:43:12.332: wlan0: Received scan results
+** Message: 03:44:12.337: wlan0: Received scan results
+** Message: 03:45:12.340: wlan0: Received scan results
+** Message: 03:46:12.347: wlan0: Received scan results
+** Message: 03:47:12.337: wlan0: Received scan results
+** Message: 03:48:12.334: wlan0: Received scan results
+** Message: 03:49:12.337: wlan0: Received scan results
+** Message: 03:50:12.342: wlan0: Received scan results
+** Message: 03:51:12.344: wlan0: Received scan results
+** Message: 03:52:12.344: wlan0: Received scan results
+** Message: 03:53:12.342: wlan0: Received scan results
+** Message: 03:54:12.342: wlan0: Received scan results
+** Message: 03:55:12.345: wlan0: Received scan results
+** Message: 03:56:12.347: wlan0: Received scan results
+** Message: 03:57:12.346: wlan0: Received scan results
+** Message: 03:58:12.346: wlan0: Received scan results
+** Message: 03:59:12.349: wlan0: Received scan results
+** Message: 04:00:12.346: wlan0: Received scan results
+** Message: 04:01:12.355: wlan0: Received scan results
+** Message: 04:02:12.355: wlan0: Received scan results
+** Message: 04:03:12.352: wlan0: Received scan results
+** Message: 04:04:12.353: wlan0: Received scan results
+** Message: 04:05:12.352: wlan0: Received scan results
+** Message: 04:06:12.356: wlan0: Received scan results
+** Message: 04:07:12.363: wlan0: Received scan results
+** Message: 04:08:12.360: wlan0: Received scan results
+** Message: 04:09:12.362: wlan0: Received scan results
+** Message: 04:10:12.361: wlan0: Received scan results
+** Message: 04:11:12.357: wlan0: Received scan results
+** Message: 04:12:12.365: wlan0: Received scan results
+** Message: 04:13:12.360: wlan0: Received scan results
+** Message: 04:14:12.365: wlan0: Received scan results
+** Message: 04:15:12.366: wlan0: Received scan results
+** Message: 04:16:12.366: wlan0: Received scan results
+** Message: 04:17:12.367: wlan0: Received scan results
+** Message: 04:18:12.369: wlan0: Received scan results
+** Message: 04:19:12.367: wlan0: Received scan results
+** Message: 04:20:12.371: wlan0: Received scan results
+** Message: 04:21:12.372: wlan0: Received scan results
+** Message: 04:22:12.371: wlan0: Received scan results
+** Message: 04:23:12.376: wlan0: Received scan results
+** Message: 04:24:12.374: wlan0: Received scan results
+** Message: 04:25:12.372: wlan0: Received scan results
+** Message: 04:26:12.372: wlan0: Received scan results
+** Message: 04:27:12.372: wlan0: Received scan results
+** Message: 04:28:12.376: wlan0: Received scan results
+** Message: 04:29:12.376: wlan0: Received scan results
+** Message: 04:30:12.378: wlan0: Received scan results
+** Message: 04:31:12.380: wlan0: Received scan results
+** Message: 04:32:12.381: wlan0: Received scan results
+** Message: 04:33:12.381: wlan0: Received scan results
+** Message: 04:34:12.380: wlan0: Received scan results
+** Message: 04:35:12.385: wlan0: Received scan results
+** Message: 04:36:12.384: wlan0: Received scan results
+** Message: 04:37:12.385: wlan0: Received scan results
+** Message: 04:38:12.385: wlan0: Received scan results
+** Message: 04:39:12.386: wlan0: Received scan results
+** Message: 04:40:12.385: wlan0: Received scan results
+** Message: 04:41:12.388: wlan0: Received scan results
+** Message: 04:42:12.392: wlan0: Received scan results
+** Message: 04:43:12.393: wlan0: Received scan results
+** Message: 04:44:12.391: wlan0: Received scan results
+** Message: 04:45:12.394: wlan0: Received scan results
+** Message: 04:46:12.395: wlan0: Received scan results
+** Message: 04:47:12.395: wlan0: Received scan results
+** Message: 04:48:12.400: wlan0: Received scan results
+** Message: 04:49:12.396: wlan0: Received scan results
+** Message: 04:50:12.395: wlan0: Received scan results
+** Message: 04:51:12.396: wlan0: Received scan results
+** Message: 04:52:12.399: wlan0: Received scan results
+** Message: 04:53:12.401: wlan0: Received scan results
+** Message: 04:54:12.402: wlan0: Received scan results
+** Message: 04:55:12.405: wlan0: Received scan results
+** Message: 04:56:12.402: wlan0: Received scan results
+** Message: 04:57:12.409: wlan0: Received scan results
+** Message: 04:58:12.404: wlan0: Received scan results
+** Message: 04:59:12.413: wlan0: Received scan results
+** Message: 05:00:01.771: usb0: Link is up, configuring
+** Message: 05:00:11.719: usb0: Link is down
+** Message: 05:00:12.407: wlan0: Received scan results
+** Message: 05:01:00.164: usb0: Link is up, configuring
+** Message: 05:01:06.324: usb0: Link is down
+** Message: 05:01:12.407: wlan0: Received scan results
+** Message: 05:01:40.806: usb0: Link is up, configuring
+** Message: 05:01:51.761: usb0: Configured 169.254.103.132/16
+** Message: 05:02:12.415: wlan0: Received scan results
+** Message: 05:03:12.413: wlan0: Received scan results
+** Message: 05:04:12.428: wlan0: Received scan results
+** Message: 05:05:12.412: wlan0: Received scan results
+** Message: 05:06:12.413: wlan0: Received scan results
+** Message: 05:07:12.414: wlan0: Received scan results
+** Message: 05:08:12.418: wlan0: Received scan results
+** Message: 05:09:12.417: wlan0: Received scan results
+** Message: 05:10:12.418: wlan0: Received scan results
+** Message: 05:11:12.415: wlan0: Received scan results
+** Message: 05:12:12.415: wlan0: Received scan results
+** Message: 05:13:12.420: wlan0: Received scan results
+** Message: 05:14:12.418: wlan0: Received scan results
+** Message: 05:15:12.428: wlan0: Received scan results
+** Message: 05:16:12.426: wlan0: Received scan results
+** Message: 05:17:12.422: wlan0: Received scan results
+** Message: 05:18:12.422: wlan0: Received scan results
+** Message: 05:19:12.429: wlan0: Received scan results
+** Message: 05:20:12.424: wlan0: Received scan results
+** Message: 05:21:12.426: wlan0: Received scan results
+** Message: 05:22:12.426: wlan0: Received scan results
+** Message: 05:23:12.431: wlan0: Received scan results
+** Message: 05:24:12.427: wlan0: Received scan results
+** Message: 05:25:12.432: wlan0: Received scan results
+** Message: 05:26:12.432: wlan0: Received scan results
+** Message: 05:27:12.429: wlan0: Received scan results
+** Message: 05:28:12.432: wlan0: Received scan results
+** Message: 05:29:12.435: wlan0: Received scan results
+** Message: 05:30:12.449: wlan0: Received scan results
+** Message: 05:31:12.438: wlan0: Received scan results
+** Message: 05:32:12.435: wlan0: Received scan results
+** Message: 05:33:12.441: wlan0: Received scan results
+** Message: 05:34:12.440: wlan0: Received scan results
+** Message: 05:35:12.437: wlan0: Received scan results
+** Message: 05:36:12.440: wlan0: Received scan results
+** Message: 05:37:12.438: wlan0: Received scan results
+** Message: 05:38:12.444: wlan0: Received scan results
+** Message: 05:39:12.444: wlan0: Received scan results
+** Message: 05:40:12.447: wlan0: Received scan results
+** Message: 05:41:12.442: wlan0: Received scan results
+** Message: 05:42:12.450: wlan0: Received scan results
+** Message: 05:43:12.446: wlan0: Received scan results
+** Message: 05:44:12.449: wlan0: Received scan results
+** Message: 05:45:12.450: wlan0: Received scan results
+** Message: 05:46:12.444: wlan0: Received scan results
+** Message: 05:47:12.449: wlan0: Received scan results
+** Message: 05:48:12.448: wlan0: Received scan results
+** Message: 05:49:12.457: wlan0: Received scan results
+** Message: 05:50:12.449: wlan0: Received scan results
+** Message: 05:51:12.455: wlan0: Received scan results
+** Message: 05:52:12.453: wlan0: Received scan results
+** Message: 05:53:12.456: wlan0: Received scan results
+** Message: 05:54:12.454: wlan0: Received scan results
+** Message: 05:55:12.457: wlan0: Received scan results
+** Message: 05:56:12.460: wlan0: Received scan results
+** Message: 05:57:12.458: wlan0: Received scan results
+** Message: 05:58:12.458: wlan0: Received scan results
+** Message: 05:59:12.458: wlan0: Received scan results
+** Message: 06:00:12.469: wlan0: Received scan results
+** Message: 06:01:12.467: wlan0: Received scan results
+** Message: 06:02:12.463: wlan0: Received scan results
+** Message: 06:02:22.018: usb0: Link is down
+** Message: 06:03:12.470: wlan0: Received scan results
+** Message: 06:04:12.472: wlan0: Received scan results
+** Message: 06:05:12.469: wlan0: Received scan results
+** Message: 06:06:12.475: wlan0: Received scan results
+** Message: 06:07:12.472: wlan0: Received scan results
+** Message: 06:08:12.473: wlan0: Received scan results
+** Message: 06:09:12.477: wlan0: Received scan results
+** Message: 06:10:12.475: wlan0: Received scan results
+** Message: 06:11:12.481: wlan0: Received scan results
+** Message: 06:12:12.478: wlan0: Received scan results
+** Message: 06:13:12.477: wlan0: Received scan results
+** Message: 06:14:12.480: wlan0: Received scan results
+** Message: 06:15:12.485: wlan0: Received scan results
+** Message: 06:16:12.485: wlan0: Received scan results
+** Message: 06:17:12.483: wlan0: Received scan results
+** Message: 06:18:12.484: wlan0: Received scan results
+** Message: 06:19:12.489: wlan0: Received scan results
+** Message: 06:20:12.488: wlan0: Received scan results
+** Message: 06:21:12.489: wlan0: Received scan results
+** Message: 06:22:12.492: wlan0: Received scan results
+** Message: 06:23:12.493: wlan0: Received scan results
+** Message: 06:24:12.492: wlan0: Received scan results
+** Message: 06:25:12.489: wlan0: Received scan results
+** Message: 06:26:12.495: wlan0: Received scan results
+** Message: 06:27:12.496: wlan0: Received scan results
+** Message: 06:28:12.498: wlan0: Received scan results
+** Message: 06:29:12.499: wlan0: Received scan results
+** Message: 06:30:12.495: wlan0: Received scan results
+** Message: 06:31:12.497: wlan0: Received scan results
+** Message: 06:32:12.497: wlan0: Received scan results
+** Message: 06:33:12.503: wlan0: Received scan results
+** Message: 06:34:12.505: wlan0: Received scan results
+** Message: 06:35:12.504: wlan0: Received scan results
+** Message: 06:36:12.505: wlan0: Received scan results
+** Message: 06:37:12.507: wlan0: Received scan results
+** Message: 06:38:12.509: wlan0: Received scan results
+** Message: 06:39:12.512: wlan0: Received scan results
+** Message: 06:40:12.506: wlan0: Received scan results
+** Message: 06:41:12.514: wlan0: Received scan results
+** Message: 06:42:12.507: wlan0: Received scan results
+** Message: 06:43:12.512: wlan0: Received scan results
+** Message: 06:44:12.517: wlan0: Received scan results
+** Message: 06:45:12.516: wlan0: Received scan results
+** Message: 06:46:12.514: wlan0: Received scan results
+** Message: 06:47:12.516: wlan0: Received scan results
+** Message: 06:48:12.516: wlan0: Received scan results
+** Message: 06:49:12.520: wlan0: Received scan results
+** Message: 06:50:12.517: wlan0: Received scan results
+** Message: 06:51:12.519: wlan0: Received scan results
+** Message: 06:52:12.517: wlan0: Received scan results
+** Message: 06:53:12.523: wlan0: Received scan results
+** Message: 06:54:12.525: wlan0: Received scan results
+** Message: 06:55:12.521: wlan0: Received scan results
+** Message: 06:56:12.523: wlan0: Received scan results
+** Message: 06:57:12.527: wlan0: Received scan results
+** Message: 06:58:12.528: wlan0: Received scan results
+** Message: 06:59:12.525: wlan0: Received scan results
+** Message: 07:00:12.528: wlan0: Received scan results
+** Message: 07:01:12.529: wlan0: Received scan results
+** Message: 07:02:12.528: wlan0: Received scan results
+** Message: 07:03:12.531: wlan0: Received scan results
+** Message: 07:04:12.532: wlan0: Received scan results
+** Message: 07:05:12.532: wlan0: Received scan results
+** Message: 07:06:12.532: wlan0: Received scan results
+** Message: 07:07:12.534: wlan0: Received scan results
+** Message: 07:08:12.535: wlan0: Received scan results
+** Message: 07:09:12.534: wlan0: Received scan results
+** Message: 07:10:12.538: wlan0: Received scan results
+** Message: 07:11:12.540: wlan0: Received scan results
+** Message: 07:12:12.540: wlan0: Received scan results
+** Message: 07:13:12.543: wlan0: Received scan results
+** Message: 07:14:12.543: wlan0: Received scan results
+** Message: 07:15:12.543: wlan0: Received scan results
+** Message: 07:16:12.549: wlan0: Received scan results
+** Message: 07:17:12.547: wlan0: Received scan results
+** Message: 07:18:12.546: wlan0: Received scan results
+** Message: 07:19:12.546: wlan0: Received scan results
+** Message: 07:20:12.552: wlan0: Received scan results
+** Message: 07:21:12.546: wlan0: Received scan results
+** Message: 07:22:12.550: wlan0: Received scan results
+** Message: 07:23:12.554: wlan0: Received scan results
+** Message: 07:24:12.555: wlan0: Received scan results
+** Message: 07:25:12.556: wlan0: Received scan results
+** Message: 07:26:12.554: wlan0: Received scan results
+** Message: 07:27:12.553: wlan0: Received scan results
+** Message: 07:28:12.559: wlan0: Received scan results
+** Message: 07:29:12.562: wlan0: Received scan results
+** Message: 07:30:12.556: wlan0: Received scan results
+** Message: 07:31:12.561: wlan0: Received scan results
+** Message: 07:32:12.562: wlan0: Received scan results
+** Message: 07:33:12.563: wlan0: Received scan results
+** Message: 07:34:12.563: wlan0: Received scan results
+** Message: 07:35:12.561: wlan0: Received scan results
+** Message: 07:36:12.568: wlan0: Received scan results
+** Message: 07:37:12.568: wlan0: Received scan results
+** Message: 07:38:12.564: wlan0: Received scan results
+** Message: 07:39:12.569: wlan0: Received scan results
+** Message: 07:40:12.567: wlan0: Received scan results
+** Message: 07:41:12.569: wlan0: Received scan results
+** Message: 07:42:12.569: wlan0: Received scan results
+** Message: 07:43:12.573: wlan0: Received scan results
+** Message: 07:44:12.572: wlan0: Received scan results
+** Message: 07:45:12.580: wlan0: Received scan results
+** Message: 07:46:12.574: wlan0: Received scan results
+** Message: 07:47:12.576: wlan0: Received scan results
+** Message: 07:48:12.577: wlan0: Received scan results
+** Message: 07:49:12.574: wlan0: Received scan results
+** Message: 07:50:12.578: wlan0: Received scan results
+** Message: 07:51:12.580: wlan0: Received scan results
+** Message: 07:52:12.582: wlan0: Received scan results
+** Message: 07:53:12.583: wlan0: Received scan results
+** Message: 07:54:12.583: wlan0: Received scan results
+** Message: 07:55:12.587: wlan0: Received scan results
+** Message: 07:56:12.588: wlan0: Received scan results
+** Message: 07:57:12.594: wlan0: Received scan results
+** Message: 07:58:12.588: wlan0: Received scan results
+** Message: 07:59:12.588: wlan0: Received scan results
+** Message: 08:00:12.589: wlan0: Received scan results
+** Message: 08:01:12.587: wlan0: Received scan results
+** Message: 08:02:12.586: wlan0: Received scan results
+** Message: 08:03:12.592: wlan0: Received scan results
+** Message: 08:04:12.598: wlan0: Received scan results
+** Message: 08:05:12.593: wlan0: Received scan results
+** Message: 08:06:12.593: wlan0: Received scan results
+** Message: 08:07:12.596: wlan0: Received scan results
+** Message: 08:08:12.597: wlan0: Received scan results
+** Message: 08:09:12.597: wlan0: Received scan results
+** Message: 08:10:12.601: wlan0: Received scan results
+** Message: 08:11:12.603: wlan0: Received scan results
+** Message: 08:12:12.602: wlan0: Received scan results
+** Message: 08:13:12.600: wlan0: Received scan results
+** Message: 08:14:12.598: wlan0: Received scan results
+** Message: 08:15:12.606: wlan0: Received scan results
+** Message: 08:16:12.605: wlan0: Received scan results
+** Message: 08:17:12.604: wlan0: Received scan results
+** Message: 08:18:12.612: wlan0: Received scan results
+** Message: 08:19:12.608: wlan0: Received scan results
+** Message: 08:20:12.614: wlan0: Received scan results
+** Message: 08:21:12.611: wlan0: Received scan results
+** Message: 08:22:12.607: wlan0: Received scan results
+** Message: 08:23:12.607: wlan0: Received scan results
+** Message: 08:24:12.614: wlan0: Received scan results
+** Message: 08:25:12.612: wlan0: Received scan results
+** Message: 08:26:12.615: wlan0: Received scan results
+** Message: 08:27:12.617: wlan0: Received scan results
+** Message: 08:28:12.613: wlan0: Received scan results
+** Message: 08:29:12.615: wlan0: Received scan results
+** Message: 08:30:12.614: wlan0: Received scan results
+** Message: 08:31:12.616: wlan0: Received scan results
+** Message: 08:32:12.621: wlan0: Received scan results
+** Message: 08:33:12.613: wlan0: Received scan results
+** Message: 08:34:12.619: wlan0: Received scan results
+** Message: 08:35:12.622: wlan0: Received scan results
+** Message: 08:36:12.624: wlan0: Received scan results
+** Message: 08:37:12.623: wlan0: Received scan results
+** Message: 08:38:12.622: wlan0: Received scan results
+** Message: 08:39:12.624: wlan0: Received scan results
+** Message: 08:40:12.624: wlan0: Received scan results
+** Message: 08:41:12.624: wlan0: Received scan results
+** Message: 08:42:12.629: wlan0: Received scan results
+** Message: 08:43:12.628: wlan0: Received scan results
+** Message: 08:44:12.628: wlan0: Received scan results
+** Message: 08:45:12.628: wlan0: Received scan results
+** Message: 08:46:12.633: wlan0: Received scan results
+** Message: 08:47:12.632: wlan0: Received scan results
+** Message: 08:48:12.630: wlan0: Received scan results
+** Message: 08:49:12.635: wlan0: Received scan results
+** Message: 08:50:12.634: wlan0: Received scan results
+** Message: 08:51:12.641: wlan0: Received scan results
+** Message: 08:52:12.640: wlan0: Received scan results
+** Message: 08:53:12.639: wlan0: Received scan results
+** Message: 08:54:12.640: wlan0: Received scan results
+** Message: 08:55:12.641: wlan0: Received scan results
+** Message: 08:56:12.643: wlan0: Received scan results
+** Message: 08:57:12.640: wlan0: Received scan results
+** Message: 08:58:12.648: wlan0: Received scan results
+** Message: 08:59:12.662: wlan0: Received scan results
+** Message: 09:00:12.644: wlan0: Received scan results
+** Message: 09:01:12.644: wlan0: Received scan results
+** Message: 09:02:12.646: wlan0: Received scan results
+** Message: 09:02:24.160: usb0: Link is up, configuring
+** Message: 09:02:29.672: usb0: Link is down
+** Message: 09:03:12.646: wlan0: Received scan results
+** Message: 09:04:12.646: wlan0: Received scan results
+** Message: 09:05:12.650: wlan0: Received scan results
+** Message: 09:06:12.651: wlan0: Received scan results
+** Message: 09:07:12.656: wlan0: Received scan results
+** Message: 09:08:12.648: wlan0: Received scan results
+** Message: 09:09:12.651: wlan0: Received scan results
+** Message: 09:10:12.659: wlan0: Received scan results
+** Message: 09:11:12.655: wlan0: Received scan results
+** Message: 09:12:12.655: wlan0: Received scan results
+** Message: 09:13:12.655: wlan0: Received scan results
+** Message: 09:14:12.657: wlan0: Received scan results
+** Message: 09:14:50.114: usb0: Link is up, configuring
+** Message: 09:15:00.674: usb0: Configured 169.254.103.132/16
+** Message: 09:15:12.659: wlan0: Received scan results
+** Message: 09:16:12.659: wlan0: Received scan results
+** Message: 09:17:12.658: wlan0: Received scan results
+** Message: 09:18:12.671: wlan0: Received scan results
+** Message: 09:19:12.670: wlan0: Received scan results
+** Message: 09:20:12.662: wlan0: Received scan results
+** Message: 09:21:12.672: wlan0: Received scan results
+** Message: 09:22:12.666: wlan0: Received scan results
+** Message: 09:23:12.671: wlan0: Received scan results
+** Message: 09:24:12.675: wlan0: Received scan results
+** Message: 09:25:12.682: wlan0: Received scan results
+** Message: 09:26:12.673: wlan0: Received scan results
+** Message: 09:27:12.675: wlan0: Received scan results
+** Message: 09:28:12.676: wlan0: Received scan results
+** Message: 09:29:12.676: wlan0: Received scan results
+** Message: 09:30:12.681: wlan0: Received scan results
+** Message: 09:31:12.676: wlan0: Received scan results
+** Message: 09:32:12.676: wlan0: Received scan results
+** Message: 09:33:12.685: wlan0: Received scan results
+** Message: 09:34:12.684: wlan0: Received scan results
+** Message: 09:35:12.683: wlan0: Received scan results
+** Message: 09:36:12.684: wlan0: Received scan results
+** Message: 09:37:12.685: wlan0: Received scan results
+** Message: 09:38:12.686: wlan0: Received scan results
+** Message: 09:39:12.689: wlan0: Received scan results
+** Message: 09:40:12.682: wlan0: Received scan results
+** Message: 09:41:12.688: wlan0: Received scan results
+** Message: 09:42:12.687: wlan0: Received scan results
+** Message: 09:43:12.690: wlan0: Received scan results
+** Message: 09:44:12.693: wlan0: Received scan results
+** Message: 09:45:12.694: wlan0: Received scan results
+** Message: 09:46:12.693: wlan0: Received scan results
+** Message: 09:47:12.692: wlan0: Received scan results
+** Message: 09:48:12.693: wlan0: Received scan results
+** Message: 09:49:12.696: wlan0: Received scan results
+** Message: 09:50:12.693: wlan0: Received scan results
+** Message: 09:51:12.699: wlan0: Received scan results
+** Message: 09:52:12.695: wlan0: Received scan results
+** Message: 09:53:12.702: wlan0: Received scan results
+** Message: 09:54:12.701: wlan0: Received scan results
+** Message: 09:55:12.704: wlan0: Received scan results
+** Message: 09:56:12.704: wlan0: Received scan results
+** Message: 09:57:12.708: wlan0: Received scan results
+** Message: 09:58:12.710: wlan0: Received scan results
+** Message: 09:59:12.704: wlan0: Received scan results
+** Message: 10:00:12.705: wlan0: Received scan results
+** Message: 10:01:12.707: wlan0: Received scan results
+** Message: 10:02:12.708: wlan0: Received scan results
+** Message: 10:03:12.711: wlan0: Received scan results
+** Message: 10:04:12.713: wlan0: Received scan results
+** Message: 10:05:12.711: wlan0: Received scan results
+** Message: 10:06:12.707: wlan0: Received scan results
+** Message: 10:07:12.717: wlan0: Received scan results
+** Message: 10:08:12.719: wlan0: Received scan results
+** Message: 10:09:12.722: wlan0: Received scan results
+** Message: 10:10:12.720: wlan0: Received scan results
+** Message: 10:11:12.722: wlan0: Received scan results
+** Message: 10:12:12.718: wlan0: Received scan results
+** Message: 10:13:12.721: wlan0: Received scan results
+** Message: 10:14:12.721: wlan0: Received scan results
+** Message: 10:15:12.722: wlan0: Received scan results
+** Message: 10:16:11.108: usb0: Link is down
+** Message: 10:16:12.719: wlan0: Received scan results
+** Message: 10:17:12.724: wlan0: Received scan results
+** Message: 10:18:12.723: wlan0: Received scan results
+** Message: 10:19:12.723: wlan0: Received scan results
+** Message: 10:20:12.724: wlan0: Received scan results
+** Message: 10:21:12.726: wlan0: Received scan results
+** Message: 10:22:12.729: wlan0: Received scan results
+** Message: 10:23:12.729: wlan0: Received scan results
+** Message: 10:24:12.729: wlan0: Received scan results
+** Message: 10:25:12.734: wlan0: Received scan results
+** Message: 10:26:12.737: wlan0: Received scan results
+** Message: 10:27:12.731: wlan0: Received scan results
+** Message: 10:28:12.732: wlan0: Received scan results
+** Message: 10:29:12.732: wlan0: Received scan results
+** Message: 10:30:12.735: wlan0: Received scan results
+** Message: 10:31:12.736: wlan0: Received scan results
+** Message: 10:32:12.740: wlan0: Received scan results
+** Message: 10:33:12.742: wlan0: Received scan results
+** Message: 10:34:12.736: wlan0: Received scan results
+** Message: 10:35:12.738: wlan0: Received scan results
+** Message: 10:36:12.742: wlan0: Received scan results
+** Message: 10:37:12.741: wlan0: Received scan results
+** Message: 10:38:12.752: wlan0: Received scan results
+** Message: 10:39:12.742: wlan0: Received scan results
+** Message: 10:40:12.742: wlan0: Received scan results
+** Message: 10:41:12.746: wlan0: Received scan results
+** Message: 10:42:12.753: wlan0: Received scan results
+** Message: 10:43:12.747: wlan0: Received scan results
+** Message: 10:44:12.748: wlan0: Received scan results
+** Message: 10:45:12.746: wlan0: Received scan results
+** Message: 10:46:12.750: wlan0: Received scan results
+** Message: 10:47:12.752: wlan0: Received scan results
+** Message: 10:48:12.759: wlan0: Received scan results
+** Message: 10:49:12.749: wlan0: Received scan results
+** Message: 10:50:12.763: wlan0: Received scan results
+** Message: 10:51:12.767: wlan0: Received scan results
+** Message: 10:52:12.755: wlan0: Received scan results
+** Message: 10:53:12.761: wlan0: Received scan results
+** Message: 10:54:12.760: wlan0: Received scan results
+** Message: 10:55:12.755: wlan0: Received scan results
+** Message: 10:56:12.758: wlan0: Received scan results
+** Message: 10:57:12.762: wlan0: Received scan results
+** Message: 10:58:12.762: wlan0: Received scan results
+** Message: 10:59:12.766: wlan0: Received scan results
+** Message: 10:59:32.077: usb0: Link is up, configuring
+** Message: 10:59:43.037: usb0: Configured 169.254.103.132/16
+** Message: 11:00:12.766: wlan0: Received scan results
+** Message: 11:01:12.768: wlan0: Received scan results
+** Message: 11:02:12.781: wlan0: Received scan results
+** Message: 11:03:12.768: wlan0: Received scan results
+** Message: 11:04:12.773: wlan0: Received scan results
+** Message: 11:05:12.772: wlan0: Received scan results
+** Message: 11:06:12.770: wlan0: Received scan results
+** Message: 11:07:12.768: wlan0: Received scan results
+** Message: 11:08:12.770: wlan0: Received scan results
+** Message: 11:09:12.766: wlan0: Received scan results
+** Message: 11:10:12.778: wlan0: Received scan results
+** Message: 11:11:12.777: wlan0: Received scan results
+** Message: 11:12:12.778: wlan0: Received scan results
+** Message: 11:13:12.775: wlan0: Received scan results
+** Message: 11:14:12.778: wlan0: Received scan results
+** Message: 11:15:12.777: wlan0: Received scan results
+** Message: 11:16:12.778: wlan0: Received scan results
+** Message: 11:17:12.784: wlan0: Received scan results
+** Message: 11:18:12.782: wlan0: Received scan results
+** Message: 11:19:12.785: wlan0: Received scan results
+** Message: 11:20:12.780: wlan0: Received scan results
+** Message: 11:21:12.783: wlan0: Received scan results
+** Message: 11:22:12.786: wlan0: Received scan results
+** Message: 11:23:12.784: wlan0: Received scan results
+** Message: 11:24:12.783: wlan0: Received scan results
+** Message: 11:25:12.789: wlan0: Received scan results
+** Message: 11:26:12.820: wlan0: Received scan results
+** Message: 11:27:12.802: wlan0: Received scan results
+** Message: 11:28:12.801: wlan0: Received scan results
+** Message: 11:29:12.805: wlan0: Received scan results
+** Message: 11:30:12.811: wlan0: Received scan results
+** Message: 11:31:12.805: wlan0: Received scan results
+** Message: 11:32:07.795: usb0: Link is down
+** Message: 11:32:07.855: usb0: Link is up, configuring
+** Message: 11:32:12.815: wlan0: Received scan results
+** Message: 11:32:18.569: usb0: Configured 169.254.103.132/16
+** Message: 11:33:12.805: wlan0: Received scan results
+** Message: 11:34:12.812: wlan0: Received scan results
+** Message: 11:35:12.806: wlan0: Received scan results
+** Message: 11:36:12.816: wlan0: Received scan results
+** Message: 11:37:12.810: wlan0: Received scan results
+** Message: 11:38:12.811: wlan0: Received scan results
+** Message: 11:39:12.814: wlan0: Received scan results
+** Message: 11:40:12.818: wlan0: Received scan results
+** Message: 11:41:12.820: wlan0: Received scan results
+** Message: 11:42:12.819: wlan0: Received scan results
+** Message: 11:43:12.820: wlan0: Received scan results
+** Message: 11:44:12.828: wlan0: Received scan results
+** Message: 11:45:12.822: wlan0: Received scan results
+** Message: 11:46:12.822: wlan0: Received scan results
+** Message: 11:47:12.849: wlan0: Received scan results
+** Message: 11:48:12.846: wlan0: Received scan results
+** Message: 11:49:12.851: wlan0: Received scan results
+** Message: 11:50:12.856: wlan0: Received scan results
+** Message: 11:51:12.858: wlan0: Received scan results
+** Message: 11:52:12.853: wlan0: Received scan results
+** Message: 11:53:12.849: wlan0: Received scan results
+** Message: 11:54:12.853: wlan0: Received scan results
+** Message: 11:55:12.853: wlan0: Received scan results
+** Message: 11:56:12.860: wlan0: Received scan results
+** Message: 11:57:12.852: wlan0: Received scan results
+** Message: 11:58:12.859: wlan0: Received scan results
+** Message: 11:59:12.859: wlan0: Received scan results
+** Message: 12:00:12.859: wlan0: Received scan results
+** Message: 12:01:12.866: wlan0: Received scan results
+** Message: 12:02:12.867: wlan0: Received scan results
+** Message: 12:03:12.871: wlan0: Received scan results
+** Message: 12:04:12.864: wlan0: Received scan results
+** Message: 12:05:12.871: wlan0: Received scan results
+** Message: 12:06:12.857: wlan0: Received scan results
+** Message: 12:07:12.865: wlan0: Received scan results
+** Message: 12:08:12.867: wlan0: Received scan results
+** Message: 12:09:12.875: wlan0: Received scan results
+** Message: 12:10:12.872: wlan0: Received scan results
+** Message: 12:11:12.875: wlan0: Received scan results
+** Message: 12:12:12.874: wlan0: Received scan results
+** Message: 12:13:12.877: wlan0: Received scan results
+** Message: 12:14:12.875: wlan0: Received scan results
+** Message: 12:15:12.880: wlan0: Received scan results
+** Message: 12:16:12.873: wlan0: Received scan results
+** Message: 12:17:12.882: wlan0: Received scan results
+** Message: 12:18:12.873: wlan0: Received scan results
+** Message: 12:19:12.879: wlan0: Received scan results
+** Message: 12:20:12.884: wlan0: Received scan results
+** Message: 12:21:12.876: wlan0: Received scan results
+** Message: 12:22:12.883: wlan0: Received scan results
+** Message: 12:23:12.914: wlan0: Received scan results
+** Message: 12:24:12.887: wlan0: Received scan results
+** Message: 12:25:12.887: wlan0: Received scan results
+** Message: 12:26:12.898: wlan0: Received scan results
+** Message: 12:27:12.892: wlan0: Received scan results
+** Message: 12:28:12.901: wlan0: Received scan results
+** Message: 12:29:12.891: wlan0: Received scan results
+** Message: 12:30:12.894: wlan0: Received scan results
+** Message: 12:31:12.894: wlan0: Received scan results
+** Message: 12:32:12.894: wlan0: Received scan results
+** Message: 12:33:12.904: wlan0: Received scan results
+** Message: 12:34:12.904: wlan0: Received scan results
+** Message: 12:35:12.894: wlan0: Received scan results
+** Message: 12:36:12.914: wlan0: Received scan results
+** Message: 12:37:12.905: wlan0: Received scan results
+** Message: 12:38:12.897: wlan0: Received scan results
+** Message: 12:39:12.904: wlan0: Received scan results
+** Message: 12:40:12.898: wlan0: Received scan results
+** Message: 12:41:12.899: wlan0: Received scan results
+** Message: 12:42:12.902: wlan0: Received scan results
+** Message: 12:43:12.899: wlan0: Received scan results
+** Message: 12:44:12.908: wlan0: Received scan results
+** Message: 12:45:12.908: wlan0: Received scan results
+** Message: 12:46:12.906: wlan0: Received scan results
+** Message: 12:47:12.902: wlan0: Received scan results
+** Message: 12:48:12.915: wlan0: Received scan results
+** Message: 12:49:12.924: wlan0: Received scan results
+** Message: 12:50:12.913: wlan0: Received scan results
+** Message: 12:51:12.915: wlan0: Received scan results
+** Message: 12:52:12.928: wlan0: Received scan results
+** Message: 12:53:12.912: wlan0: Received scan results
+** Message: 12:54:12.917: wlan0: Received scan results
+** Message: 12:55:12.924: wlan0: Received scan results
+** Message: 12:56:12.917: wlan0: Received scan results
+** Message: 12:57:12.924: wlan0: Received scan results
+** Message: 12:58:12.925: wlan0: Received scan results
+** Message: 12:59:12.926: wlan0: Received scan results
+** Message: 13:00:12.920: wlan0: Received scan results
+** Message: 13:01:12.925: wlan0: Received scan results
+** Message: 13:02:12.931: wlan0: Received scan results
+** Message: 13:03:12.924: wlan0: Received scan results
+** Message: 13:04:12.928: wlan0: Received scan results
+** Message: 13:05:12.932: wlan0: Received scan results
+** Message: 13:06:12.945: wlan0: Received scan results
+** Message: 13:07:12.931: wlan0: Received scan results
+** Message: 13:08:12.938: wlan0: Received scan results
+** Message: 13:09:12.931: wlan0: Received scan results
+** Message: 13:10:12.934: wlan0: Received scan results
+** Message: 13:11:12.942: wlan0: Received scan results
+** Message: 13:12:12.935: wlan0: Received scan results
+** Message: 13:13:12.941: wlan0: Received scan results
+** Message: 13:14:12.939: wlan0: Received scan results
+** Message: 13:15:12.934: wlan0: Received scan results
+** Message: 13:16:12.938: wlan0: Received scan results
+** Message: 13:17:12.939: wlan0: Received scan results
+** Message: 13:18:12.947: wlan0: Received scan results
+** Message: 13:19:12.935: wlan0: Received scan results
+** Message: 13:20:12.952: wlan0: Received scan results
+** Message: 13:21:12.957: wlan0: Received scan results
+** Message: 13:22:12.952: wlan0: Received scan results
+** Message: 13:23:12.945: wlan0: Received scan results
+** Message: 13:24:12.952: wlan0: Received scan results
+** Message: 13:25:12.947: wlan0: Received scan results
+** Message: 13:26:12.953: wlan0: Received scan results
+** Message: 13:27:12.951: wlan0: Received scan results
+** Message: 13:28:12.954: wlan0: Received scan results
+** Message: 13:29:12.954: wlan0: Received scan results
+** Message: 13:30:12.951: wlan0: Received scan results
+** Message: 13:31:12.958: wlan0: Received scan results
+** Message: 13:32:12.959: wlan0: Received scan results
+** Message: 13:33:12.956: wlan0: Received scan results
+** Message: 13:34:12.973: wlan0: Received scan results
+** Message: 13:35:12.952: wlan0: Received scan results
+** Message: 13:36:12.952: wlan0: Received scan results
+** Message: 13:37:12.960: wlan0: Received scan results
+** Message: 13:38:12.964: wlan0: Received scan results
+** Message: 13:39:12.961: wlan0: Received scan results
+** Message: 13:40:12.963: wlan0: Received scan results
+** Message: 13:41:12.967: wlan0: Received scan results
+** Message: 13:42:12.964: wlan0: Received scan results
+** Message: 13:43:12.972: wlan0: Received scan results
+** Message: 13:44:12.982: wlan0: Received scan results
+** Message: 13:45:12.989: wlan0: Received scan results
+** Message: 13:46:12.973: wlan0: Received scan results
+** Message: 13:47:12.993: wlan0: Received scan results
+** Message: 13:48:12.985: wlan0: Received scan results
+** Message: 13:49:12.975: wlan0: Received scan results
+** Message: 13:50:12.975: wlan0: Received scan results
+** Message: 13:51:12.976: wlan0: Received scan results
+** Message: 13:52:12.975: wlan0: Received scan results
+** Message: 13:53:12.985: wlan0: Received scan results
+** Message: 13:54:12.977: wlan0: Received scan results
+** Message: 13:55:12.978: wlan0: Received scan results
+** Message: 13:56:12.981: wlan0: Received scan results
+** Message: 13:57:12.990: wlan0: Received scan results
+** Message: 13:58:12.985: wlan0: Received scan results
+** Message: 13:59:12.984: wlan0: Received scan results
+** Message: 14:00:12.986: wlan0: Received scan results
+** Message: 14:01:12.987: wlan0: Received scan results
+** Message: 14:02:12.986: wlan0: Received scan results
+** Message: 14:03:12.989: wlan0: Received scan results
+** Message: 14:04:12.992: wlan0: Received scan results
+** Message: 14:05:12.999: wlan0: Received scan results
+** Message: 14:06:12.996: wlan0: Received scan results
+** Message: 14:07:12.990: wlan0: Received scan results
+** Message: 14:08:12.988: wlan0: Received scan results
+** Message: 14:09:12.990: wlan0: Received scan results
+** Message: 14:10:12.996: wlan0: Received scan results
+** Message: 14:11:12.997: wlan0: Received scan results
+** Message: 14:12:12.998: wlan0: Received scan results
+** Message: 14:13:13.002: wlan0: Received scan results
+** Message: 14:14:12.995: wlan0: Received scan results
+** Message: 14:15:12.999: wlan0: Received scan results
+** Message: 14:16:13.001: wlan0: Received scan results
+** Message: 14:17:13.002: wlan0: Received scan results
+** Message: 14:18:13.003: wlan0: Received scan results
+** Message: 14:19:13.001: wlan0: Received scan results
+** Message: 14:20:13.006: wlan0: Received scan results
+** Message: 14:21:13.006: wlan0: Received scan results
+** Message: 14:22:13.009: wlan0: Received scan results
+** Message: 14:23:13.007: wlan0: Received scan results
+** Message: 14:24:13.012: wlan0: Received scan results
+** Message: 14:25:13.028: wlan0: Received scan results
+** Message: 14:26:13.010: wlan0: Received scan results
+** Message: 14:27:13.012: wlan0: Received scan results
+** Message: 14:28:13.009: wlan0: Received scan results
+** Message: 14:29:13.012: wlan0: Received scan results
+** Message: 14:30:13.014: wlan0: Received scan results
+** Message: 14:31:13.018: wlan0: Received scan results
+** Message: 14:32:13.022: wlan0: Received scan results
+** Message: 14:33:13.024: wlan0: Received scan results
+** Message: 14:34:13.018: wlan0: Received scan results
+** Message: 14:35:13.020: wlan0: Received scan results
+** Message: 14:36:13.026: wlan0: Received scan results
+** Message: 14:37:13.024: wlan0: Received scan results
+** Message: 14:38:13.025: wlan0: Received scan results
+** Message: 14:39:13.027: wlan0: Received scan results
+** Message: 14:40:13.026: wlan0: Received scan results
+** Message: 14:41:13.026: wlan0: Received scan results
+** Message: 14:42:13.031: wlan0: Received scan results
+** Message: 14:43:13.032: wlan0: Received scan results
+** Message: 14:44:13.029: wlan0: Received scan results
+** Message: 14:45:13.029: wlan0: Received scan results
+** Message: 14:46:13.031: wlan0: Received scan results
+** Message: 14:47:13.034: wlan0: Received scan results
+** Message: 14:48:13.036: wlan0: Received scan results
+** Message: 14:49:13.033: wlan0: Received scan results
+** Message: 14:50:13.034: wlan0: Received scan results
+** Message: 14:51:13.068: wlan0: Received scan results
+** Message: 14:52:13.043: wlan0: Received scan results
+** Message: 14:53:13.046: wlan0: Received scan results
+** Message: 14:54:13.038: wlan0: Received scan results
+** Message: 14:55:13.041: wlan0: Received scan results
+** Message: 14:56:13.044: wlan0: Received scan results
+** Message: 14:57:13.041: wlan0: Received scan results
+** Message: 14:58:13.041: wlan0: Received scan results
+** Message: 14:59:13.052: wlan0: Received scan results
+** Message: 15:00:13.054: wlan0: Received scan results
+** Message: 15:01:13.047: wlan0: Received scan results
+** Message: 15:02:13.053: wlan0: Received scan results
+** Message: 15:03:13.045: wlan0: Received scan results
+** Message: 15:04:13.055: wlan0: Received scan results
+** Message: 15:05:13.052: wlan0: Received scan results
+** Message: 15:06:13.052: wlan0: Received scan results
+** Message: 15:07:13.059: wlan0: Received scan results
+** Message: 15:08:13.064: wlan0: Received scan results
+** Message: 15:09:13.054: wlan0: Received scan results
+** Message: 15:10:13.052: wlan0: Received scan results
+** Message: 15:11:13.053: wlan0: Received scan results
+** Message: 15:12:13.063: wlan0: Received scan results
+** Message: 15:13:13.071: wlan0: Received scan results
+** Message: 15:14:13.063: wlan0: Received scan results
+** Message: 15:15:13.064: wlan0: Received scan results
+** Message: 15:16:13.065: wlan0: Received scan results
+** Message: 15:17:13.063: wlan0: Received scan results
+** Message: 15:18:13.070: wlan0: Received scan results
+** Message: 15:19:13.069: wlan0: Received scan results
+** Message: 15:20:13.067: wlan0: Received scan results
+** Message: 15:21:13.070: wlan0: Received scan results
+** Message: 15:22:13.070: wlan0: Received scan results
+** Message: 15:23:13.071: wlan0: Received scan results
+** Message: 15:24:13.072: wlan0: Received scan results
+** Message: 15:25:13.078: wlan0: Received scan results
+** Message: 15:26:13.074: wlan0: Received scan results
+** Message: 15:27:13.074: wlan0: Received scan results
+** Message: 15:28:13.073: wlan0: Received scan results
+** Message: 15:29:13.079: wlan0: Received scan results
+** Message: 15:30:13.074: wlan0: Received scan results
+** Message: 15:30:26.540: usb0: Link is down
+** Message: 15:30:56.244: usb0: Link is up, configuring
+** Message: 15:31:07.709: usb0: Configured 169.254.103.132/16
+** Message: 15:31:13.123: wlan0: Received scan results
+** Message: 15:32:13.076: wlan0: Received scan results
+** Message: 15:33:13.079: wlan0: Received scan results
+** Message: 15:34:13.080: wlan0: Received scan results
+** Message: 15:35:13.086: wlan0: Received scan results
+** Message: 15:36:13.083: wlan0: Received scan results
+** Message: 15:37:13.096: wlan0: Received scan results
+** Message: 15:38:13.083: wlan0: Received scan results
+** Message: 15:39:13.090: wlan0: Received scan results
+** Message: 15:40:13.083: wlan0: Received scan results
+** Message: 15:41:13.092: wlan0: Received scan results
+** Message: 15:42:13.095: wlan0: Received scan results
+** Message: 15:43:13.088: wlan0: Received scan results
+** Message: 15:44:13.093: wlan0: Received scan results
+** Message: 15:45:13.093: wlan0: Received scan results
+** Message: 15:46:13.093: wlan0: Received scan results
+** Message: 15:47:13.098: wlan0: Received scan results
+** Message: 15:48:13.094: wlan0: Received scan results
+** Message: 15:49:13.108: wlan0: Received scan results
+** Message: 15:50:13.100: wlan0: Received scan results
+** Message: 15:51:13.097: wlan0: Received scan results
+** Message: 15:52:13.111: wlan0: Received scan results
+** Message: 15:53:13.095: wlan0: Received scan results
+** Message: 15:54:13.109: wlan0: Received scan results
+** Message: 15:55:13.098: wlan0: Received scan results
+** Message: 15:56:13.104: wlan0: Received scan results
+** Message: 15:57:13.105: wlan0: Received scan results
+** Message: 15:58:13.110: wlan0: Received scan results
+** Message: 15:59:13.101: wlan0: Received scan results
+** Message: 16:00:13.110: wlan0: Received scan results
+** Message: 16:01:13.112: wlan0: Received scan results
+** Message: 16:02:13.105: wlan0: Received scan results
+** Message: 16:03:13.110: wlan0: Received scan results
+** Message: 16:04:13.115: wlan0: Received scan results
+** Message: 16:05:13.112: wlan0: Received scan results
+** Message: 16:06:13.106: wlan0: Received scan results
+** Message: 16:07:13.105: wlan0: Received scan results
+** Message: 16:08:13.112: wlan0: Received scan results
+** Message: 16:09:13.112: wlan0: Received scan results
+** Message: 16:10:13.117: wlan0: Received scan results
+** Message: 16:11:13.112: wlan0: Received scan results
+** Message: 16:12:13.109: wlan0: Received scan results
+** Message: 16:13:13.114: wlan0: Received scan results
+** Message: 16:14:13.119: wlan0: Received scan results
+** Message: 16:15:13.119: wlan0: Received scan results
+** Message: 16:16:13.128: wlan0: Received scan results
+** Message: 16:17:13.120: wlan0: Received scan results
+** Message: 16:18:13.143: wlan0: Received scan results
+** Message: 16:19:13.124: wlan0: Received scan results
+** Message: 16:20:13.117: wlan0: Received scan results
+** Message: 16:21:13.123: wlan0: Received scan results
+** Message: 16:22:13.150: wlan0: Received scan results
+** Message: 16:23:13.135: wlan0: Received scan results
+** Message: 16:24:13.141: wlan0: Received scan results
+** Message: 16:25:13.139: wlan0: Received scan results
+** Message: 16:26:13.149: wlan0: Received scan results
+** Message: 16:27:13.140: wlan0: Received scan results
+** Message: 16:28:13.136: wlan0: Received scan results
+** Message: 16:29:13.174: wlan0: Received scan results
+** Message: 16:30:13.162: wlan0: Received scan results
+** Message: 16:31:13.171: wlan0: Received scan results
+** Message: 16:32:13.179: wlan0: Received scan results
+** Message: 16:33:13.168: wlan0: Received scan results
+** Message: 16:34:13.171: wlan0: Received scan results
+** Message: 16:35:13.171: wlan0: Received scan results
+** Message: 16:36:13.174: wlan0: Received scan results
+** Message: 16:37:13.176: wlan0: Received scan results
+** Message: 16:38:13.174: wlan0: Received scan results
+** Message: 16:39:13.183: wlan0: Received scan results
+** Message: 16:40:13.181: wlan0: Received scan results
+** Message: 16:41:13.214: wlan0: Received scan results
+** Message: 16:42:13.228: wlan0: Received scan results
+** Message: 16:43:13.216: wlan0: Received scan results
+** Message: 16:44:13.219: wlan0: Received scan results
+** Message: 16:45:13.223: wlan0: Received scan results
+** Message: 16:46:13.225: wlan0: Received scan results
+** Message: 16:47:13.222: wlan0: Received scan results
+** Message: 16:48:13.216: wlan0: Received scan results
+** Message: 16:49:13.233: wlan0: Received scan results
+** Message: 16:50:13.243: wlan0: Received scan results
+** Message: 16:51:13.232: wlan0: Received scan results
+** Message: 16:52:13.228: wlan0: Received scan results
+** Message: 16:53:13.227: wlan0: Received scan results
+** Message: 16:54:13.236: wlan0: Received scan results
+** Message: 16:55:13.231: wlan0: Received scan results
+** Message: 16:56:13.232: wlan0: Received scan results
+** Message: 16:57:13.239: wlan0: Received scan results
+** Message: 16:58:13.233: wlan0: Received scan results
+** Message: 16:59:13.239: wlan0: Received scan results
+** Message: 17:00:13.234: wlan0: Received scan results
+** Message: 17:01:13.242: wlan0: Received scan results
+** Message: 17:02:13.239: wlan0: Received scan results
+** Message: 17:03:13.240: wlan0: Received scan results
+** Message: 17:04:13.244: wlan0: Received scan results
+** Message: 17:05:13.246: wlan0: Received scan results
+** Message: 17:06:13.245: wlan0: Received scan results
+** Message: 17:07:13.251: wlan0: Received scan results
+** Message: 17:08:13.247: wlan0: Received scan results
+** Message: 17:09:13.252: wlan0: Received scan results
+** Message: 17:10:13.249: wlan0: Received scan results
+** Message: 17:11:13.254: wlan0: Received scan results
+** Message: 17:12:13.260: wlan0: Received scan results
+** Message: 17:13:13.276: wlan0: Received scan results
+** Message: 17:14:13.260: wlan0: Received scan results
+** Message: 17:15:13.258: wlan0: Received scan results
+** Message: 17:16:13.262: wlan0: Received scan results
+** Message: 17:17:13.267: wlan0: Received scan results
+** Message: 17:18:13.269: wlan0: Received scan results
+** Message: 17:19:13.264: wlan0: Received scan results
+** Message: 17:20:13.268: wlan0: Received scan results
+** Message: 17:21:13.264: wlan0: Received scan results
+** Message: 17:22:13.269: wlan0: Received scan results
+** Message: 17:23:13.274: wlan0: Received scan results
+** Message: 17:24:13.286: wlan0: Received scan results
+** Message: 17:25:13.269: wlan0: Received scan results
+** Message: 17:26:13.275: wlan0: Received scan results
+** Message: 17:27:13.277: wlan0: Received scan results
+** Message: 17:28:13.279: wlan0: Received scan results
+** Message: 17:29:13.278: wlan0: Received scan results
+** Message: 17:30:13.285: wlan0: Received scan results
+** Message: 17:31:13.280: wlan0: Received scan results
+** Message: 17:32:13.279: wlan0: Received scan results
+** Message: 17:33:13.277: wlan0: Received scan results
+** Message: 17:34:13.278: wlan0: Received scan results
+** Message: 17:35:13.287: wlan0: Received scan results
+** Message: 17:36:13.293: wlan0: Received scan results
+** Message: 17:37:13.287: wlan0: Received scan results
+** Message: 17:38:13.287: wlan0: Received scan results
+** Message: 17:39:13.283: wlan0: Received scan results
+** Message: 17:40:13.297: wlan0: Received scan results
+** Message: 17:41:13.285: wlan0: Received scan results
+** Message: 17:42:13.287: wlan0: Received scan results
+** Message: 17:43:13.294: wlan0: Received scan results
+** Message: 17:44:13.292: wlan0: Received scan results
+** Message: 17:45:13.299: wlan0: Received scan results
+** Message: 17:46:13.300: wlan0: Received scan results
+** Message: 17:47:13.298: wlan0: Received scan results
+** Message: 17:48:13.306: wlan0: Received scan results
+** Message: 17:49:13.299: wlan0: Received scan results
+** Message: 17:50:13.304: wlan0: Received scan results
+** Message: 17:51:13.301: wlan0: Received scan results
+** Message: 17:52:13.319: wlan0: Received scan results
+** Message: 17:53:13.300: wlan0: Received scan results
+** Message: 17:54:13.302: wlan0: Received scan results
+** Message: 17:55:13.310: wlan0: Received scan results
+** Message: 17:56:13.304: wlan0: Received scan results
+** Message: 17:57:13.304: wlan0: Received scan results
+** Message: 17:58:13.313: wlan0: Received scan results
+** Message: 17:59:13.312: wlan0: Received scan results
+** Message: 18:00:13.306: wlan0: Received scan results
+** Message: 18:01:13.319: wlan0: Received scan results
+** Message: 18:02:13.312: wlan0: Received scan results
+** Message: 18:03:13.314: wlan0: Received scan results
+** Message: 18:04:13.316: wlan0: Received scan results
+** Message: 18:05:13.316: wlan0: Received scan results
+** Message: 18:06:13.318: wlan0: Received scan results
+** Message: 18:07:13.319: wlan0: Received scan results
+** Message: 18:08:13.315: wlan0: Received scan results
+** Message: 18:09:13.321: wlan0: Received scan results
+** Message: 18:10:13.319: wlan0: Received scan results
+** Message: 18:11:13.322: wlan0: Received scan results
+** Message: 18:12:13.325: wlan0: Received scan results
+** Message: 18:13:13.326: wlan0: Received scan results
+** Message: 18:14:13.328: wlan0: Received scan results
+** Message: 18:15:13.331: wlan0: Received scan results
+** Message: 18:16:13.329: wlan0: Received scan results
+** Message: 18:17:13.330: wlan0: Received scan results
+** Message: 18:18:13.333: wlan0: Received scan results
+** Message: 18:19:13.331: wlan0: Received scan results
+** Message: 18:20:13.330: wlan0: Received scan results
+** Message: 18:21:13.341: wlan0: Received scan results
+** Message: 18:22:13.338: wlan0: Received scan results
+** Message: 18:23:13.342: wlan0: Received scan results
+** Message: 18:24:13.337: wlan0: Received scan results
+** Message: 18:25:13.341: wlan0: Received scan results
+** Message: 18:26:13.338: wlan0: Received scan results
+** Message: 18:27:13.340: wlan0: Received scan results
+** Message: 18:28:13.337: wlan0: Received scan results
+** Message: 18:29:13.344: wlan0: Received scan results
+** Message: 18:30:13.344: wlan0: Received scan results
+** Message: 18:31:13.339: wlan0: Received scan results
+** Message: 18:32:13.345: wlan0: Received scan results
+** Message: 18:33:13.346: wlan0: Received scan results
+** Message: 18:34:13.349: wlan0: Received scan results
+** Message: 18:35:13.349: wlan0: Received scan results
+** Message: 18:36:13.358: wlan0: Received scan results
+** Message: 18:37:13.355: wlan0: Received scan results
+** Message: 18:38:13.361: wlan0: Received scan results
+** Message: 18:39:13.366: wlan0: Received scan results
+** Message: 18:40:13.353: wlan0: Received scan results
+** Message: 18:41:13.356: wlan0: Received scan results
+** Message: 18:42:13.362: wlan0: Received scan results
+** Message: 18:43:13.378: wlan0: Received scan results
+** Message: 18:44:13.365: wlan0: Received scan results
+** Message: 18:45:13.375: wlan0: Received scan results
+** Message: 18:46:13.377: wlan0: Received scan results
+** Message: 18:47:13.383: wlan0: Received scan results
+** Message: 18:48:13.392: wlan0: Received scan results
+** Message: 18:49:13.393: wlan0: Received scan results
+** Message: 18:50:13.409: wlan0: Received scan results
+** Message: 18:51:13.407: wlan0: Received scan results
+** Message: 18:51:27.232: usb0: Link is down
+** Message: 18:51:27.287: usb0: Link is up, configuring
+** Message: 18:51:38.428: usb0: Configured 169.254.103.132/16
+** Message: 18:52:13.392: wlan0: Received scan results
+** Message: 18:53:13.402: wlan0: Received scan results
+** Message: 18:54:13.397: wlan0: Received scan results
+** Message: 18:55:13.398: wlan0: Received scan results
+** Message: 18:56:13.402: wlan0: Received scan results
+** Message: 18:57:13.404: wlan0: Received scan results
+** Message: 18:58:13.407: wlan0: Received scan results
+** Message: 18:59:13.403: wlan0: Received scan results
+** Message: 19:00:13.411: wlan0: Received scan results
+** Message: 19:01:13.408: wlan0: Received scan results
+** Message: 19:02:13.402: wlan0: Received scan results
+** Message: 19:03:13.404: wlan0: Received scan results
+** Message: 19:04:13.415: wlan0: Received scan results
+** Message: 19:05:13.407: wlan0: Received scan results
+** Message: 19:06:13.412: wlan0: Received scan results
+** Message: 19:07:13.406: wlan0: Received scan results
+** Message: 19:08:13.409: wlan0: Received scan results
+** Message: 19:09:13.407: wlan0: Received scan results
+** Message: 19:10:13.426: wlan0: Received scan results
+** Message: 19:11:13.411: wlan0: Received scan results
+** Message: 19:12:13.422: wlan0: Received scan results
+** Message: 19:13:13.417: wlan0: Received scan results
+** Message: 19:14:13.423: wlan0: Received scan results
+** Message: 19:15:13.430: wlan0: Received scan results
+** Message: 19:16:13.426: wlan0: Received scan results
+** Message: 19:17:13.422: wlan0: Received scan results
+** Message: 19:18:13.444: wlan0: Received scan results
+** Message: 19:19:13.447: wlan0: Received scan results
+** Message: 19:20:13.426: wlan0: Received scan results
+** Message: 19:21:13.425: wlan0: Received scan results
+** Message: 19:22:13.434: wlan0: Received scan results
+** Message: 19:23:13.430: wlan0: Received scan results
+** Message: 19:24:13.430: wlan0: Received scan results
+** Message: 19:25:13.424: wlan0: Received scan results
+** Message: 19:26:13.438: wlan0: Received scan results
+** Message: 19:27:13.429: wlan0: Received scan results
+** Message: 19:28:13.433: wlan0: Received scan results
+** Message: 19:29:13.432: wlan0: Received scan results
+** Message: 19:30:13.432: wlan0: Received scan results
+** Message: 19:31:13.435: wlan0: Received scan results
+** Message: 19:32:13.440: wlan0: Received scan results
+** Message: 19:33:13.432: wlan0: Received scan results
+** Message: 19:34:13.434: wlan0: Received scan results
+** Message: 19:35:13.443: wlan0: Received scan results
+** Message: 19:36:13.440: wlan0: Received scan results
+** Message: 19:37:13.470: wlan0: Received scan results
+** Message: 19:38:13.458: wlan0: Received scan results
+** Message: 19:39:13.460: wlan0: Received scan results
+** Message: 19:40:13.439: wlan0: Received scan results
+** Message: 19:41:13.445: wlan0: Received scan results
+** Message: 19:42:13.450: wlan0: Received scan results
+** Message: 19:43:13.457: wlan0: Received scan results
+** Message: 19:44:13.450: wlan0: Received scan results
+** Message: 19:45:13.455: wlan0: Received scan results
+** Message: 19:46:13.450: wlan0: Received scan results
+** Message: 19:47:13.455: wlan0: Received scan results
+** Message: 19:48:13.454: wlan0: Received scan results
+** Message: 19:49:13.458: wlan0: Received scan results
+** Message: 19:50:13.454: wlan0: Received scan results
+** Message: 19:51:13.456: wlan0: Received scan results
+** Message: 19:52:13.457: wlan0: Received scan results
+** Message: 19:53:13.458: wlan0: Received scan results
+** Message: 19:54:13.455: wlan0: Received scan results
+** Message: 19:55:13.471: wlan0: Received scan results
+** Message: 19:55:14.943: usb0: Link is down
+** Message: 19:55:15.000: usb0: Link is up, configuring
+** Message: 19:55:25.373: usb0: Configured 169.254.103.132/16
+** Message: 19:56:13.464: wlan0: Received scan results
+** Message: 19:57:13.461: wlan0: Received scan results
+** Message: 19:58:13.467: wlan0: Received scan results
+** Message: 19:59:13.467: wlan0: Received scan results
+** Message: 20:00:13.467: wlan0: Received scan results
+** Message: 20:01:13.479: wlan0: Received scan results
+** Message: 20:02:13.457: wlan0: Received scan results
+** Message: 20:03:13.472: wlan0: Received scan results
+** Message: 20:04:13.480: wlan0: Received scan results
+** Message: 20:05:13.471: wlan0: Received scan results
+** Message: 20:06:13.474: wlan0: Received scan results
+** Message: 20:07:13.467: wlan0: Received scan results
+** Message: 20:08:13.470: wlan0: Received scan results
+** Message: 20:09:13.465: wlan0: Received scan results
+** Message: 20:10:13.478: wlan0: Received scan results
