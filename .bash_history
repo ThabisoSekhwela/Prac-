@@ -158,3 +158,8 @@ git status
 git commit -m "pracc4"
 git push origin master
 git config --global user.name"ThabisoSekhwel
+cd Desktop
+ls
+prac4_edit2
+prac4_edit2.py
+python prac4_edit2.py

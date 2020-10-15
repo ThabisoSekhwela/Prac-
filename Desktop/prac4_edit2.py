@@ -57,6 +57,7 @@ def menu():
         print("Starting a new round!")
         print("Use the buttons on the Pi to make and submit your guess!")
         print("Press and hold the guess button to cancel your game")
+        global value
         value = generate_number()
         #value = 1
         print("The value is",value)
@@ -95,6 +96,7 @@ def display_scores(count, raw_data):
 
 # Setup Pins
 def setup():
+    global Buzzer_sound , ledDim
     # Setup board mode
     GPIO.setmode(GPIO.BOARD)
 
@@ -107,32 +109,28 @@ def setup():
     GPIO.setup(18, GPIO.IN, pull_up_down = GPIO.PUD_UP)
     GPIO.setup(33, GPIO.OUT) # PWM pin
 
-    # Setup PWM channels
-    global p
-    global ledDim
+    # Setup PWM channels   
     ledDim = GPIO.PWM(32,10)
     ledDim.start(0)
-    p = GPIO.PWM(33,10)  
-    p.start(1)  #Duty circle of brackets
+    
+    Buzzer_sound = GPIO.PWM(33,10)  
+    Buzzer_sound.start(50)  
     
     # Setup debouncing and callbacks
-    GPIO.add_event_detect(18, GPIO.RISING, callback=callback_method,bouncetime=300)
-    GPIO.add_event_detect(16, GPIO.RISING, callback=callback_method,bouncetime=300)
+    GPIO.add_event_detect(18, GPIO.RISING, callback=callback_method,bouncetime=295)
+    GPIO.add_event_detect(16, GPIO.RISING, callback=callback_method,bouncetime=295)
     pass
 
 
 # Load high scores
 def fetch_scores():
     # get however many scores there are
-    eeprom.populate_mock_scores()
+    #eeprom.populate_mock_scores()
     global score_count
+    global score
     score_count = eeprom.read_byte(0)
     
 
-    # Get the scores
-    #Byt_arr = eeprom.read_byte(1,4*number_S)
-    
-    print(score_count)
     scores = []
     for i in range(score_count):           
         scores.append(['name',0])        
@@ -169,33 +167,30 @@ def save_scores():
        username = username[:3]
     
     # fetch scores
-    #new_arr = []
-    number_S, new_arr = fetch_scores()
-    number_S = number_S + 1
+    
+    score_count, new_arr = fetch_scores()
+    score_count = score_count + 1
+    
     # include new score
     new_arr.append(["name",0])
-    new_arr[number_S-1][0] = username
-    new_arr[number_S-1][1] = attempts
-    #print(new_arr)
+    new_arr[score_count-1][0] = username
+    new_arr[score_count-1][1] = attempts
+    
     # sort
     new_arr.sort(key=lambda x: x[1])
-
-    # update total amount of scores
-    #score_count = number_S
+    print(new_arr)
     
-
     # write new scores
+    # update total amount of scores
     new_arr_write = []
 
-    eeprom.write_byte(0,number_S)
+    eeprom.write_byte(0,score_count)
     for content in new_arr:
           for y in content[0]:
                 new_arr_write.append(ord(y))
-                new_arr_write.append(content[1])
+          new_arr_write.append(content[1])
           eeprom.write_block(1, new_arr_write)
-    print(new_arr_write)
     
-   # eeprom.write_block(0, number_S) # count number of scores in first block
     pass
 
 
@@ -208,15 +203,17 @@ def generate_number():
 
 def btn_increase_pressed(channel):
     global guess
-    
-    print("The guess is",guess)
-    if guess == 7:
-        guess = 0 # restart the count from zero
+    global attempts
+   
+        
     # Increase the value shown on the LEDs   
     # You can choose to have a global variable store the user's current guess, 
-    # or just pull the value off the LEDs when a user makes a guess
-    guess += 1
+    # or just pull the value off the LEDs when a user makes a guess    
+    attempts = attempts + 1
     led_Switch()
+    guess += 1
+    if guess == 8:
+        guess = 0
     pass
 
 def led_Switch():
@@ -256,44 +253,43 @@ def led_Switch():
 # Guess button
 def btn_guess_pressed(channel):
     # If they've pressed and held the button, clear up the GPIO and take them back to the menu screen
-    print("Here in guess after submit")
     start_time = time.time()
     buttonTime = time.time() - start_time
+    print(buttonTime)
     if buttonTime < 1: 
        # count number of attempts
-        global attempts
-        attempts = attempts + 1
-        print("Counting number of attempts")
+        #global attempts
+        
     
         accuracy_leds()
         # Compare the actual value with the user value displayed on the LEDs
         # if it's close enough, adjust the buzzer
         
+        print("Guess before ===", guess)
         if guess == value:
-            print("guess = value")
-            p.stop()
+            ledDim.stop()
+            Buzzer_sound.stop()
             GPIO.output(32, False)
             GPIO.output(33, False)
             save_scores()
-            menu()
+            
         else:
-            print("In Buzzer")
+            
             trigger_buzzer()
         
         # Change the PWM LED
         
         # if it's an exact guess:
         # - Disable LEDs and Buzzer
-        print("skipped guess = value")
-            
+        
+          
     else:# when button pressed for more than 1 sec
-        print("Holding State")
+        
         end_of_game = True # stops the games
         GPIO.output(32, False)
         GPIO.output(33, False)
         
     # - tell the user and prompt them for a name
-    #  name  = input("Enter your name:")
     # - fetch all the scores
     # - add the new score
     # - sort the scores
@@ -304,44 +300,37 @@ def btn_guess_pressed(channel):
 # LED Brightness
 def accuracy_leds():
     # Set the brightness of the LED based on how close the guess is to the answer
-    # - The % brightness should be directly proportional to the % "closeness"
-    # - For example if the answer is 6 and a user guesses 4, the brightness should be at 4/6*100 = 66%
-    # - If they guessed 7, the brightness would be at ((8-7)/(8-6)*100 = 50%
+    
     led_inp = (8-guess)/(8-value)*100
+    if (8-guess)>(8-value):
+        led_inp = 15
+        
     ledDim.ChangeDutyCycle(led_inp)
     GPIO.output(32, True)
-    print("In accurate led changing duty circle")
     pass
 
 # Sound Buzzer
 def trigger_buzzer():
-    # The buzzer operates differently from the LED
-    # While we want the brightness of the LED to change(duty cycle), we want the frequency of the buzzer to change
-    # The buzzer duty cycle should be left at 50%
-     
-    # p.start(0)
-    # p.ChangeDutyCycle(dc)
     
     if abs(value-guess)==3:
     # If the user is off by an absolute value of 3, the buzzer should sound once every second     
-       #GPIO.PWM(33,10).start(1)
-       p.ChangeFrequency(1)
+       Buzzer_sound.ChangeFrequency(1)
        GPIO.output(33, True)
-       #p.stop()
+       
     
     if abs(value-guess)==2:
     # If the user is off by an absolute value of 2, the buzzer should sound twice every second
-       #GPIO.PWM(33,10).start(1)
-       p.ChangeFrequency(2)
+       Buzzer_sound.ChangeFrequency(2)
        GPIO.output(33, True)
-       #p.stop()
+       
 
     if abs(value-guess)==1:
     # If the user is off by an absolute value of 1, the buzzer should sound 4 times a second
-       #GPIO.PWM(33,10).start(1)
-       p.ChangeFrequency(4)
+       Buzzer_sound.ChangeFrequency(4)
        GPIO.output(33, True)
-       #p.stop()
+       
+    else:
+        pass
     pass
 
 
