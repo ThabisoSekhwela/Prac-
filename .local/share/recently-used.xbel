@@ -43,12 +43,42 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/pi/Desktop/prac4" added="2020-10-11T22:31:49Z" modified="2020-10-11T22:31:49Z" visited="2020-10-11T22:31:49.691748Z">
+  <bookmark href="file:///home/pi/Desktop/prac4" added="2020-10-11T22:31:49Z" modified="2020-10-11T22:31:49Z" visited="2020-10-11T22:31:49Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
           <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-11T22:31:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/prac_4_edit" added="2020-10-14T15:53:40Z" modified="2020-10-14T15:53:40Z" visited="2020-10-14T15:53:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-14T15:53:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/ES2EEPROMUtils" added="2020-10-14T15:58:47Z" modified="2020-10-14T15:58:47Z" visited="2020-10-14T15:58:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-14T15:58:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/prac4_edit2" added="2020-10-14T18:09:31Z" modified="2020-10-14T18:09:31Z" visited="2020-10-14T18:09:32.116496Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-14T18:09:31Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
