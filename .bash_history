@@ -179,3 +179,25 @@ git commit -m"Project2'
 
 
 
+git status
+gif config --global user.name"ThabisoSekhwela"
+git config --global user.name"ThabisoSekhwela"
+git config --global user.email"https://github.com/ThabisoSekhwela/EEE3096_Final.git"
+git init
+git add .
+git commit -m"Project"
+git remote add origin
+git push -u origin master
+git remote add origin https://github.com/ThabisoSekhwela/EEE3096_Final.git
+git push -u origin main
+git push -u origin
+git push -u origin master
+git init
+git  config --global user.name"ThabisoSekhwela"
+git config --global user.name"ThabisoSekhwela"
+git config --global user.email"https://github.com/ThabisoSekhwela"
+git config --global user.email "https://github.com/ThabisoSekhwela"
+git add .
+git commit -m'Proj2"
+
+
