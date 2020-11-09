@@ -165,3 +165,17 @@ prac4_edit2.py
 python prac4_edit2.py
 apt-get update
 sudo raspi-config
+git init
+git config --global user.name"ThabisoSekhwela"
+git config --global user.email"https://github.com/ThabisoSekhwela/EEE3096_Final.git"
+git init
+git add .
+git commit -m"Project"
+git commit -m"Project2'
+
+
+
+git commit -m"Project2'
+
+
+
