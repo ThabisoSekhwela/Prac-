@@ -163,3 +163,5 @@ ls
 prac4_edit2
 prac4_edit2.py
 python prac4_edit2.py
+apt-get update
+sudo raspi-config

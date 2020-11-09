@@ -3,46 +3,6 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/pi/EEE3096S-Pracs-2020/Prac3/C/src/globals.h" added="2020-09-26T19:54:29Z" modified="2020-09-26T19:54:29Z" visited="2020-09-26T19:54:30Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:groups>
-          <bookmark:group>geany</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-09-26T19:54:29Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/pi/EEE3096S-Pracs-2020/Prac3/C/src/CHeterodyning_threaded.h" added="2020-09-26T21:13:33Z" modified="2020-09-26T21:13:33Z" visited="2020-09-26T21:13:34Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-c++src"/>
-        <bookmark:groups>
-          <bookmark:group>geany</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2020-09-26T21:13:33Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/pi/EEE3096S-Pracs-2020/Prac3/C/makefile" added="2020-09-26T22:09:42Z" modified="2020-09-26T22:10:22Z" visited="2020-09-26T22:09:42Z">
-    <desc>Charset: UTF-8</desc>
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:groups>
-          <bookmark:group>Mousepad</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2020-09-26T22:10:22Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/pi/Desktop/prac4" added="2020-10-11T22:31:49Z" modified="2020-10-11T22:31:49Z" visited="2020-10-11T22:31:49Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -73,12 +33,82 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/pi/Desktop/prac4_edit2" added="2020-10-14T18:09:31Z" modified="2020-10-14T18:09:31Z" visited="2020-10-14T18:09:32.116496Z">
+  <bookmark href="file:///home/pi/Desktop/prac4_edit2" added="2020-10-14T18:09:31Z" modified="2020-10-14T18:09:31Z" visited="2020-10-14T18:09:32Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
           <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-14T18:09:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/Prac5" added="2020-10-27T23:14:22Z" modified="2020-10-27T23:14:22Z" visited="2020-10-27T23:14:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-27T23:14:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/prac4_test" added="2020-10-30T14:48:03Z" modified="2020-10-30T14:48:03Z" visited="2020-10-30T14:48:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-30T14:48:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/prac5_test2" added="2020-10-30T16:36:39Z" modified="2020-10-30T16:36:39Z" visited="2020-10-30T16:36:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-30T16:36:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/prac5test3" added="2020-10-30T19:37:43Z" modified="2020-10-30T19:37:43Z" visited="2020-10-30T19:37:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-30T19:37:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/prac_5_tes" added="2020-10-31T18:03:16Z" modified="2020-10-31T18:03:16Z" visited="2020-10-31T18:03:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-10-31T18:03:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/ProjectA" added="2020-11-02T15:01:24Z" modified="2020-11-02T15:01:24Z" visited="2020-11-02T15:01:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-11-02T15:01:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Documents/MZMANA001/newnew" added="2020-11-08T14:47:59Z" modified="2020-11-08T14:47:59Z" visited="2020-11-08T14:48:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thonny" exec="&apos;Thonny %u&apos;" modified="2020-11-08T14:47:59Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

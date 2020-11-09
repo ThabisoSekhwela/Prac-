@@ -1,5 +1,5 @@
-2020/09/24-12:20:15.815 516 Recovering log #3
-2020/09/24-12:20:15.821 516 Level-0 table #5: started
-2020/09/24-12:20:15.861 516 Level-0 table #5: 141 bytes OK
-2020/09/24-12:20:16.045 516 Delete type=0 #3
-2020/09/24-12:20:16.045 516 Delete type=3 #2
+2020/11/08-14:41:26.703 4ba Recovering log #9
+2020/11/08-14:41:26.704 4ba Level-0 table #11: started
+2020/11/08-14:41:26.708 4ba Level-0 table #11: 0 bytes OK
+2020/11/08-14:41:26.892 4ba Delete type=3 #7
+2020/11/08-14:41:26.893 4ba Delete type=0 #9

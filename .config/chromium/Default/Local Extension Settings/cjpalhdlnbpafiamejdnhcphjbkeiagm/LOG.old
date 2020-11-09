@@ -1,0 +1,13 @@
+2020/09/24-12:21:31.358 517 Delete type=3 #1
+2020/09/24-12:25:06.755 88c Level-0 table #5: started
+2020/09/24-12:25:08.453 88c Level-0 table #5: 2165463 bytes OK
+2020/09/24-12:25:08.464 88c Delete type=0 #3
+2020/09/24-12:30:44.067 88c Level-0 table #7: started
+2020/09/24-12:30:44.904 88c Level-0 table #7: 1736706 bytes OK
+2020/09/24-12:30:44.913 88c Delete type=0 #4
+2020/09/24-12:43:21.447 88c Level-0 table #9: started
+2020/09/24-12:43:22.864 88c Level-0 table #9: 1787602 bytes OK
+2020/09/24-12:43:22.879 88c Delete type=0 #6
+2020/09/24-12:57:03.947 88c Level-0 table #11: started
+2020/09/24-12:57:04.995 88c Level-0 table #11: 2099730 bytes OK
+2020/09/24-12:57:05.007 88c Delete type=0 #8
